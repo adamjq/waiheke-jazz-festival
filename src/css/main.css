@@ -66,3 +66,39 @@ h2 {
     font-weight: 200;
     margin-top: 1rem;
 }
+
+header {
+    /* Hero image centered and fills whole viewport */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/trumpet-jazz.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------------------*/
+/* FOOTER */
+/* ------------------------------------------------*/
+
+footer {
+    background-color: #333;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+footer p {
+    font-size: 1.4rem;
+    color: #888;
+    text-align: center;
+    margin-top: 1rem;
+}
