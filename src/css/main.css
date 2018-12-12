@@ -1,0 +1,68 @@
+/* ------------------------------------------------*/
+/* BASIC SETUP */
+/* ------------------------------------------------*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000;
+    color: #fff;
+    font-size: 62.5%;
+    font-weight: 300;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 8rem 0 0 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ------------------------------------------------*/
+/* HEADINGS */
+/* ------------------------------------------------*/
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
