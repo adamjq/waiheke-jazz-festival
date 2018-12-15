@@ -84,6 +84,9 @@ h3:after {
     margin-top: 3rem;
 }
 
+/* ------------------------------------------------*/
+/* HEADER */
+/* ------------------------------------------------*/
 
 header {
     /* Hero image centered and fills whole viewport */
@@ -97,7 +100,6 @@ header {
     background-attachment: fixed;
 }
 
-
 .hero-text-box {
     position: absolute;
     width: 1140px;
@@ -105,6 +107,53 @@ header {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 5rem;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: solid 0.2rem transparent;
+    padding: 0.8rem 0;
+    color: #fff;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: solid 0.2rem #999;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+    height: 5rem;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: .5rem 0;
+    color: #555;
 }
 
 /* ------------------------------------------------*/
