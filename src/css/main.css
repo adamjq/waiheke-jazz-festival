@@ -67,6 +67,24 @@ h2 {
     margin-top: 1rem;
 }
 
+h3 {
+    font-size: 3.6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* The line that appears after the h3 element */
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #999;
+    content: " ";
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+
 header {
     /* Hero image centered and fills whole viewport */
     background-image: -webkit-gradient(linear, left top, left bottom, 
@@ -87,6 +105,37 @@ header {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------------------*/
+/* PARAGRAPHS */
+/* ------------------------------------------------*/
+
+p {
+    font-size: 1.6rem;
+    line-height: 145%;
+}
+
+.long-copy {
+    width: 70%;
+    margin: 0 auto 2rem auto;
+}
+
+/* ------------------------------------------------*/
+/* EVENTS */
+/* ------------------------------------------------*/
+
+.section-events {
+    padding-bottom: 8rem;
+}
+
+/* ------------------------------------------------*/
+/* VENUES */
+/* ------------------------------------------------*/
+
+.section-venues {
+    padding-bottom: 8rem;
+    background-color: #f4f4f4;
 }
 
 /* ----------------------------------------------- */
