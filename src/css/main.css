@@ -84,6 +84,11 @@ h3:after {
     margin-top: 3rem;
 }
 
+h4 {
+    font-size: 2.2rem;
+     margin-bottom: 1.5rem;
+ } 
+
 /* ------------------------------------------------*/
 /* HEADER */
 /* ------------------------------------------------*/
@@ -171,11 +176,57 @@ p {
 }
 
 /* ------------------------------------------------*/
+/* LINKS */
+/* ------------------------------------------------*/
+
+a:link,
+a:visited {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 0.1rem solid #555;
+    padding-bottom: 0.1rem;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 0.1rem solid transparent;
+}
+
+/* ------------------------------------------------*/
 /* EVENTS */
 /* ------------------------------------------------*/
 
 .section-events {
     padding-bottom: 8rem;
+}
+
+.event-box {
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+    width: 70%;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0.2rem 0.2rem #efefef;
+    box-shadow: 0 0.2rem 0.2rem #efefef;
+    text-align: center;
+}
+
+.event-box div:first-child {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.event-image {
+    margin-top: 1rem;
+    border-top: 0.1rem solid #eaeaea;
+}
+
+.event-image img {
+    width: 100%;
 }
 
 /* ------------------------------------------------*/
