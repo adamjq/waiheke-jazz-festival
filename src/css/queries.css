@@ -32,10 +32,6 @@
     
     .row,
     .hero-text-box { padding: 0 4%; }
-    .col { 
-        width: 100%;
-        margin: 0 0 4% 0;
-    }
 
     /* Hide navigation for smaller devices */
     .main-nav { display: none; }
@@ -51,8 +47,13 @@
         margin-left: 0%;
     }
 
+    .artists .first-tier p { font-size: 4rem; }
+    .artists .second-tier p { font-size: 2.6rem; }
+    .artists .third-tier p { font-size: 2.2rem; }
+
+    .section-lineup { padding-bottom: 4rem; }
     .section-events { padding-bottom: 4rem; }
-    .section-venues { padding-bottom: 4rem; }
+    .section-sponsors { padding-bottom: 4rem; }
     .section-gallery { padding-bottom: 0; }
 
 }
@@ -71,11 +72,21 @@
         width: 5rem;
         margin-top: 1rem; 
     }
+
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
     
+    .artists .first-tier p { font-size: 2rem; }
+    .artists .second-tier p { font-size: 1.2rem; }
+    .artists .third-tier p { font-size: 1rem; }
+
     section { padding: 25px 0; }
 
+    .section-lineup { padding-bottom: 2rem; }
     .section-events { padding-bottom: 2rem; }
-    .section-venues { padding-bottom: 2rem; }
+    .section-sponsors { padding-bottom: 2rem; }
     
     .gallery-showcase li { width: 100%; }
 }
