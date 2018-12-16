@@ -55,7 +55,7 @@ h1, h2, h3, h4 {
 }
 
 h1, h2 {
-    color: #fff;
+    color: #000;
     text-align: center;
     letter-spacing: 0.1rem;
     word-spacing: 0.3rem;
@@ -96,9 +96,9 @@ h4 {
 header {
     /* Hero image centered and fills whole viewport */
     background-image: -webkit-gradient(linear, left top, left bottom, 
-                        from(rgba(0, 0, 0, 0.5)), 
-                        to(rgba(0, 0, 0, 0.5))), 
-                            url(../img/hero-image.jpg);
+                        from(rgba(0, 0, 0, 0.2)), 
+                        to(rgba(0, 0, 0, 0.2))), 
+                            url(../img/web-background.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -108,7 +108,7 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 20%;
+    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -132,7 +132,7 @@ header {
     text-transform: uppercase;
     border-bottom: solid 0.2rem transparent;
     padding: 0.8rem 0;
-    color: #fff;
+    color: #000;
 }
 
 .main-nav li a:hover,
