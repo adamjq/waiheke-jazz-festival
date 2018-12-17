@@ -22,6 +22,8 @@
         margin-left: 10%;
     }
 
+    .logo-text-img { width: 65%; }
+
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -32,6 +34,8 @@
     
     .row,
     .hero-text-box { padding: 0 4%; }
+
+    .logo-text-img { width: 80%; }
 
     /* Hide navigation for smaller devices */
     .main-nav { display: none; }
@@ -89,6 +93,8 @@
     .section-sponsors { padding-bottom: 2rem; }
     
     .gallery-showcase li { width: 100%; }
+
+    .sponsor-image img { max-width: 50%; }
 
     footer { padding: 1rem; }
     .footer-text { font-size: .8rem;} 
