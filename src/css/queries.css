@@ -64,9 +64,7 @@
 
     html {font-size: 1.2rem;}
 
-    h3 {
-        margin-bottom: 1rem;
-    }
+    h3 { margin-bottom: 1rem; }
 
     h3:after { 
         width: 5rem;
@@ -78,9 +76,11 @@
         margin: 0 0 4% 0;
     }
     
-    .artists .first-tier p { font-size: 2rem; }
-    .artists .second-tier p { font-size: 1.2rem; }
-    .artists .third-tier p { font-size: 1rem; }
+    .artists .first-tier p { font-size: 1.8rem; }
+    .artists .second-tier p { font-size: 1rem; }
+    .artists .third-tier p { font-size: .8rem; }
+
+    .event-box { padding: .5rem 1rem; }
 
     section { padding: 25px 0; }
 
@@ -89,4 +89,7 @@
     .section-sponsors { padding-bottom: 2rem; }
     
     .gallery-showcase li { width: 100%; }
+
+    footer { padding: 1rem; }
+    .footer-text { font-size: .8rem;} 
 }
