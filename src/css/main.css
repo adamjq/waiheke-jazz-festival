@@ -228,8 +228,8 @@ a:active {
 .event-box {
     background-color: #fff;
     border-radius: 0.5rem;
-    width: 70%;
-    padding: 1rem 2rem;
+    width: 100%;
+    padding: 2rem 2rem;
     margin: 0 auto;
     -webkit-box-shadow: 0 0.2rem 0.2rem #efefef;
     box-shadow: 0 0.2rem 0.2rem #efefef;
@@ -242,7 +242,6 @@ a:active {
 }
 
 .event-image {
-    margin-top: 1rem;
     border-top: 0.1rem solid #eaeaea;
 }
 
