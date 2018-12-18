@@ -35,7 +35,7 @@
     .row,
     .hero-text-box { padding: 0 4%; }
 
-    .logo-text-img { width: 80%; }
+    .logo-img { width: 100%; }
 
     /* Hide navigation for smaller devices */
     .main-nav { display: none; }
