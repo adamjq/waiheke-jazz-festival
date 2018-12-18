@@ -50,7 +50,7 @@ section {
 h1, h2, h3, h4 {
     margin: 0;
     font-size: 5rem;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -86,7 +86,7 @@ h3:after {
 
 h4 {
     font-size: 2.2rem;
-     margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
  } 
 
 /* ------------------------------------------------*/
@@ -173,6 +173,7 @@ p {
 .long-copy {
     width: 70%;
     margin: 0 auto 2rem auto;
+    font-weight: 300;
 }
 
 /* ------------------------------------------------*/
@@ -208,6 +209,7 @@ a:active {
     text-transform: uppercase;
     text-align: center;
     line-height: 145%;
+    font-weight: 400;
 }
 
 .artists .first-tier p { font-size: 6rem; }
