@@ -83,8 +83,8 @@
     }
     
     .artists .first-tier p { font-size: 1.8rem; }
-    .artists .second-tier p { font-size: 1.2rem; }
-    .artists .third-tier p { font-size: .9rem; }
+    .artists .second-tier p { font-size: 1rem; }
+    .artists .third-tier p { font-size: .8rem; }
 
     .event-box { width: 70%;}
 
