@@ -53,14 +53,14 @@
 
     .event-box { padding: 1rem 1rem; }
 
-    .artists .first-tier p { font-size: 4rem; }
-    .artists .second-tier p { font-size: 2.6rem; }
-    .artists .third-tier p { font-size: 2.2rem; }
+    .lineup-artists .first-tier p { font-size: 4rem; }
+    .lineup-artists .second-tier p { font-size: 2.6rem; }
+    .lineup-artists .third-tier p { font-size: 2.2rem; }
 
     .section-lineup { padding-bottom: 4rem; }
     .section-events { padding-bottom: 4rem; }
     .section-sponsors { padding-bottom: 4rem; }
-    .section-gallery { padding-bottom: 0; }
+    .section-artists { padding-bottom: 0; }
 
 }
 
@@ -82,9 +82,9 @@
         margin: 0 0 4% 0;
     }
     
-    .artists .first-tier p { font-size: 1.8rem; }
-    .artists .second-tier p { font-size: 1rem; }
-    .artists .third-tier p { font-size: .8rem; }
+    .lineup-artists .first-tier p { font-size: 1.8rem; }
+    .lineup-artists .second-tier p { font-size: 1rem; }
+    .lineup-artists .third-tier p { font-size: .8rem; }
 
     .event-box { width: 70%;}
 
@@ -94,7 +94,7 @@
     .section-events { padding-bottom: 2rem; }
     .section-sponsors { padding-bottom: 2rem; }
     
-    .gallery-showcase li { width: 100%; }
+    .artists-showcase li { width: 100%; }
 
     .sponsor-image img { max-width: 50%; }
 

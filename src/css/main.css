@@ -205,16 +205,16 @@ a:active {
     padding-bottom: 8rem;
 }
 
-.artists {
+.lineup-artists {
     text-transform: uppercase;
     text-align: center;
     line-height: 145%;
     font-weight: 400;
 }
 
-.artists .first-tier p { font-size: 6rem; }
-.artists .second-tier p { font-size: 3.6rem; }
-.artists .third-tier p { font-size: 2.8rem; }
+.lineup-artists .first-tier p { font-size: 6rem; }
+.lineup-artists .second-tier p { font-size: 3.6rem; }
+.lineup-artists .third-tier p { font-size: 2.8rem; }
 
 .featuring-text {
     text-transform: none;
@@ -258,32 +258,32 @@ a:active {
 }
 
 /* ----------------------------------------------- */
-/* GALLERY */
+/* ARTISTS */
 /* ----------------------------------------------- */
 
-.section-gallery {
+.section-artists {
     padding: 0;
 }
 
-.gallery-showcase {
+.artists-showcase {
     list-style: none;
     width: 100%;
 }
 
-.gallery-showcase li {
+.artists-showcase li {
     display: block;
     float: left;
     width: 33.3%;
 }
 
-.gallery-photo {
+.artists-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.gallery-photo img {
+.artists-photo img {
     opacity: 0.8;
     width: 100%;
     height: auto;
@@ -296,13 +296,13 @@ a:active {
     transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
-.gallery-photo img:hover {
+.artists-photo img:hover {
     opacity: 0.2;
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
 
-.gallery-photo:hover .gallery-info {opacity: 1;}
+.artists-photo:hover .artists-info {opacity: 1;}
 
 /* ------------------------------------------------*/
 /* SPONSORS */
