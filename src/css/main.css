@@ -216,6 +216,10 @@ a:active {
 .artists .second-tier p { font-size: 3.6rem; }
 .artists .third-tier p { font-size: 2.8rem; }
 
+.featuring-text {
+    text-transform: none;
+}
+
 /* ------------------------------------------------*/
 /* EVENTS */
 /* ------------------------------------------------*/
