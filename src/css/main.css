@@ -47,24 +47,11 @@ section {
 /* HEADINGS */
 /* ------------------------------------------------*/
 
-h1, h2, h3, h4 {
+h3, h4 {
     margin: 0;
     font-size: 5rem;
     font-weight: 400;
     text-transform: uppercase;
-}
-
-h1, h2 {
-    color: #663399;
-    text-align: center;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.3rem;
-}
-
-h2 {
-    font-size: 2rem;
-    font-weight: 200;
-    margin-top: 1rem;
 }
 
 h3 {
@@ -111,7 +98,7 @@ header {
     right: 0;
     bottom: 0;
     display: block;
-    margin: auto; 
+    margin: auto;
 }
 
 .main-nav {
@@ -132,33 +119,14 @@ header {
     text-transform: uppercase;
     border-bottom: solid 0.2rem transparent;
     padding: 0.8rem 0;
-    color: #000;
+    color: #663399;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: solid 0.2rem #999;
+    border-bottom: solid 0.2rem #663399;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 2px 2px #efefef;
-    z-index: 9999;
-    height: 5rem;
-}
-
-.sticky .main-nav { margin-top: 18px; }
-
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-    padding: .5rem 0;
-    color: #555;
 }
 
 /* ------------------------------------------------*/
@@ -216,8 +184,10 @@ a:active {
 .lineup-artists .second-tier p { font-size: 3.6rem; }
 .lineup-artists .third-tier p { font-size: 2.8rem; }
 
-.featuring-text {
+.lineup-artists .featuring-text {
     text-transform: none;
+    margin-top: 2rem;
+    font-weight: 300;
 }
 
 /* ------------------------------------------------*/
@@ -261,158 +231,32 @@ a:active {
 /* ARTISTS */
 /* ----------------------------------------------- */
 
-.blocks {
-    position: relative;
-    overflow-x: hidden;
-    z-index: 1
-}
-
-.blocks section {
-    padding-top: 4vw
-}
-
-.blocks .artists {
-    font-weight: 400;
+.section-artists {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    padding-bottom: 8rem;
 }
 
-.blocks .artists .grid {
-    line-height: 0;
-    margin-bottom: 8rem;
-    overflow-x: hidden;
-}
+.section-artists .grid { padding-top: 4rem; }
 
-.blocks .artists .grid .items {
-    display: -webkit-box;
-    display: -ms-flexbox;
+.section-artists .grid .artist-items {
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
-.blocks .artists .grid .item {
-    position: relative;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.33%;
-    flex: 0 0 33.33%;
+.section-artists .grid .artist-items .artist-item {
+    position: relative; 
+    display: inline-block;
+    flex: 1 1 33%;
+    height: auto;
     cursor: pointer;
-    margin: 0 0 0 auto
-}
-
-@media (max-width:1024px) {
-    .blocks .artists .grid .item {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%
-    }
-}
-
-@media (max-width:700px) {
-    .blocks .artists .grid .item {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%
-    }
-}
-
-.blocks .artists .grid .item .background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat
-}
-
-/* .artists .grid .item::after {
-    display: block;
-    content: '';
-    padding-top: 64.17%
-}
-
-.artists .grid .item:hover .background {
-    opacity: .5
-}
-
-.artists .grid .item:hover .hover .name {
-    display: block
-}
-
-.artists .grid .item .hover {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    color: #000;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 3rem
-}
-
-@media (max-width:700px) {
-    .artists .grid .item .hover {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex
-    }
-}
-
-.artists .grid .item .hover .overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #00D0E5;
-    mix-blend-mode: soft-light
-}
-
-.artists .grid .item .hover .name {
-    display: none;
-    font-family: Weiss, serif;
-    font-size: 2.5rem;
-    line-height: .8
-} */
-
-
-/* .section-artists {
-    padding: 0;
-}
-
-.artists-showcase {
-    list-style: none;
-    width: 100%;
-}
-
-.artists-showcase li {
-    display: block;
-    float: left;
-    width: 33.3%;
-}
-
-.artists-photo {
-    width: 100%;
-    margin: 0;
+    margin: 0 auto;
     overflow: hidden;
     background-color: #000;
 }
 
-.artists-photo img {
-    opacity: 0.6;
+.section-artists .grid .artist-items .artist-item img { 
+    display: block;
+    opacity: 0.7;
     width: 100%;
     height: auto;
     -webkit-transform: scale(1.1);
@@ -421,13 +265,27 @@ a:active {
     transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
 }
 
-.artists-photo img:hover {
-    opacity: 0.2;
+.section-artists .grid .artist-items .artist-item img:hover {
+    opacity: 0.3;
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
 
-.artists-photo:hover .artists-info {opacity: 1;} */
+.section-artists .grid .artist-items .artist-item p { 
+    position: absolute; 
+    top: 50%; 
+    left: 0; 
+    right: 0; 
+    transform: translate(0, -50%); 
+    text-align: center; 
+    color: #fff;
+    opacity: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+}
+
+.section-artists .grid .artist-items .artist-item:hover p {opacity: 1;}
 
 /* ------------------------------------------------*/
 /* SPONSORS */
