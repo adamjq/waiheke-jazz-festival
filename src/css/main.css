@@ -261,7 +261,135 @@ a:active {
 /* ARTISTS */
 /* ----------------------------------------------- */
 
-.section-artists {
+.blocks {
+    position: relative;
+    overflow-x: hidden;
+    z-index: 1
+}
+
+.blocks section {
+    padding-top: 4vw
+}
+
+.blocks .artists {
+    font-weight: 400;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blocks .artists .grid {
+    line-height: 0;
+    margin-bottom: 8rem;
+    overflow-x: hidden;
+}
+
+.blocks .artists .grid .items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.blocks .artists .grid .item {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    cursor: pointer;
+    margin: 0 0 0 auto
+}
+
+@media (max-width:1024px) {
+    .blocks .artists .grid .item {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%
+    }
+}
+
+@media (max-width:700px) {
+    .blocks .artists .grid .item {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%
+    }
+}
+
+.blocks .artists .grid .item .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+/* .artists .grid .item::after {
+    display: block;
+    content: '';
+    padding-top: 64.17%
+}
+
+.artists .grid .item:hover .background {
+    opacity: .5
+}
+
+.artists .grid .item:hover .hover .name {
+    display: block
+}
+
+.artists .grid .item .hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3rem
+}
+
+@media (max-width:700px) {
+    .artists .grid .item .hover {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+.artists .grid .item .hover .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #00D0E5;
+    mix-blend-mode: soft-light
+}
+
+.artists .grid .item .hover .name {
+    display: none;
+    font-family: Weiss, serif;
+    font-size: 2.5rem;
+    line-height: .8
+} */
+
+
+/* .section-artists {
     padding: 0;
 }
 
@@ -299,7 +427,7 @@ a:active {
     transform: scale(1.03);
 }
 
-.artists-photo:hover .artists-info {opacity: 1;}
+.artists-photo:hover .artists-info {opacity: 1;} */
 
 /* ------------------------------------------------*/
 /* SPONSORS */
