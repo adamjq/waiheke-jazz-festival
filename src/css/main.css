@@ -261,12 +261,12 @@ a:active {
     height: auto;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s, -webkit-transform 0.4s;
 }
 
-.section-artists .grid .artist-items .artist-item img:hover {
-    opacity: 0.3;
+.section-artists .grid .artist-items .artist-item .artist-link:hover img {
+    opacity: 0.2;
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
@@ -285,7 +285,7 @@ a:active {
     font-size: 3.2rem;
 }
 
-.section-artists .grid .artist-items .artist-item:hover p {opacity: 1;}
+.section-artists .grid .artist-items .artist-item .artist-link:hover p {opacity: 1;}
 
 /* ------------------------------------------------*/
 /* SPONSORS */
