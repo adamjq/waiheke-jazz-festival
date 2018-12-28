@@ -117,4 +117,16 @@
 
     .section-artists .grid .artist-items .artist-item { flex: 1 1 100%; }
     .section-artists .grid .artist-items .artist-item p { font-size: 1.6rem;} 
+
+    .section-artists .grid .artist-items .artist-item .artist-link img {
+        opacity: 0.5;
+    }
+
+    .section-artists .grid .artist-items .artist-item .artist-link:hover img {
+        opacity: 0.5;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .section-artists .grid .artist-items .artist-item p { opacity: 1; }
 }
