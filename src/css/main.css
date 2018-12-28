@@ -165,6 +165,33 @@ a:active {
     border-bottom: 0.1rem solid transparent;
 }
 
+button {
+    width: 10rem;
+    padding: 0.7rem;
+    border-radius: 100rem;
+    border: 1px solid #ccc;
+    background-color: #663399;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button:focus { outline:0; }
+
+button:hover,
+button:active {
+    background-color: #9b59b6;
+}
+
+.btn-brochure {
+    margin-left: .5rem;
+}
+
+.btn-brochure a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none;
+}
+
 /* ------------------------------------------------*/
 /* LINEUP */
 /* ------------------------------------------------*/
@@ -233,7 +260,7 @@ a:active {
 
 .section-artists {
     list-style: none;
-    padding-bottom: 8rem;
+    background-color: #f4f4f4;
 }
 
 .section-artists .grid { padding-top: 4rem; }
