@@ -99,6 +99,7 @@ header {
     bottom: 0;
     display: block;
     margin: auto;
+    pointer-events: none;
 }
 
 .main-nav {
