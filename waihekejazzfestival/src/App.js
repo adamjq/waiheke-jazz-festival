@@ -1,14 +1,18 @@
 import React from 'react';
 
+import ArtistSection from "./components/ArtistSection"
+import EventSection from "./components/EventSection"
 import Footer from "./components/Footer"
-import Lineup from "./components/Lineup"
+import LineupSection from "./components/LineupSection"
 import SponsorSection from "./components/SponsorSection"
 
 const App = () => {
     return (
         <div className="App">
-            <Lineup/>
-            <SponsorSection/>
+            <LineupSection />
+            <EventSection />
+            <ArtistSection />
+            <SponsorSection />
             <Footer />
         </div>
     );

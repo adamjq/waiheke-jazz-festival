@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Lineup = () => {
+const LineupSection = () => {
     return (
         <section id="lineup" className="section-lineup">
             <div className="row">
@@ -20,4 +20,4 @@ const Lineup = () => {
     );
 }
 
-export default Lineup;
+export default LineupSection;
