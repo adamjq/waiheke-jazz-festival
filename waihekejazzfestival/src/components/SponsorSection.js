@@ -17,10 +17,8 @@ const SponsorSection = () => {
         </div>
 
         <div className="row">
-            <SponsorImage image="sothebys.png" alt="Sotherby's Logo" />
             <SponsorImage image="fullers-logo.png" alt="Fullers Ferry Logo" />
             <SponsorImage image="all-that-jazz-quartet.png" alt="All That Jazz Quartet Logo"/>
-            <SponsorImage image="roys-bay-logo.png" alt="Roys Bay Logo"/>
         </div>
         </section>
     );

@@ -6,14 +6,13 @@ const LineupSection = () => {
             <div className="row">
                 <h3>Lineup</h3>
                 <div className="lineup-artists">
-                <div className="first-tier"><p>Trinity Roots</p></div>
-                <div className="second-tier"><p>Louana Whitney | MC Tali</p></div>
-                <div className="second-tier"><p>Hopetoun Brown | Frank Booker</p></div>
-                <div className="third-tier"><p>Gypsy Kings Tribute Band | Royal Jackets</p></div>
-                <div className="third-tier"><p>Wellington City Shake-em-on-downers</p></div>
-                <div className="third-tier"><p>Nairobi Trio | A Tribute to Tom Waits</p></div>
-                <div className="third-tier"><p>George Washingmachine | Kate Wadey Trio</p></div>
-                <div className="third-tier"><p>The Phil Edwards Band | Gitbox Rebellion</p></div>
+                {/* <div className="first-tier"><p></p></div> */}
+                <div className="second-tier"><p>ARDIJAH | Vince Jones (Aus)</p></div>
+                <div className="second-tier"><p>Yoko Zuna | Frank Booker</p></div>
+                <div className="second-tier"><p>Love Square | The Eastern</p></div>
+                <div className="third-tier"><p>Nairobi Trio | White Chappel Jack</p></div>
+                <div className="third-tier"><p>Hammod Gamble | Mr Speaker</p></div>
+                <div className="third-tier"><p>Delta Blues | JT & The Saxman</p></div>
                 </div>
             </div>
         </section>
@@ -21,3 +20,16 @@ const LineupSection = () => {
 }
 
 export default LineupSection;
+
+// ARDIJAH
+// Vince Jones
+// Yoko Zuna
+// Frank Booker
+// Love Sqaure
+// The Eastern
+// White Chappel Jack
+// Nairobi Trio
+// Hammod Gamble
+// Mr Speaker
+// Delta Blues
+// JT & The Saxman

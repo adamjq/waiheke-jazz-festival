@@ -12,8 +12,14 @@
 }
 
 html {
-    background-color: #fff;
-    color: #663399;
+    /* background-color:#D9F1F5; */
+    background-color:#E9F7F9;
+    /* background-color:#CAEBF2; */
+    /* background-color: #99D3DF; */
+    /* background-color: black; */
+    /* color: #4d13d1; */
+    color: #013243;
+    /* color: #24252a; */
     font-size: 62.5%;
     font-weight: 300;
     font-family: 'Oswald', 'Arial', sans-serif;
@@ -64,7 +70,7 @@ h3 {
 h3:after {
     display: block;
     height: 2px;
-    background-color: #663399;
+    background-color: #013243;
     content: " ";
     width: 10rem;
     margin: 0 auto;
@@ -80,9 +86,9 @@ h4 {
 /* HEADER */
 /* ------------------------------------------------*/
 
+/* Hero image centered and fills whole viewport */
 header {
-    /* Hero image centered and fills whole viewport */
-    background-image: url(../img/web-background.png);
+    /* background-image: linear-gradient(to bottom, rgb(83,51,237, 0.2), rgb(83,51,237, 0.2)), url(../img/background-greyscale.png); */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -90,7 +96,7 @@ header {
 }
 
 .logo-img {
-    width: 70%;
+    width: 50%;
     max-width: 90rem;
     position: absolute;
     left: 0;
@@ -100,6 +106,15 @@ header {
     display: block;
     margin: auto;
     pointer-events: none;
+}
+
+.tickets-text {
+    text-align: center;
+    margin: 0 auto;
+    bottom: 40px;
+    left:0;
+    position:fixed; 
+    width:100%;
 }
 
 .main-nav {
@@ -120,12 +135,12 @@ header {
     text-transform: uppercase;
     border-bottom: solid 0.2rem transparent;
     padding: 0.8rem 0;
-    color: #663399;
+    color: #4d13d1;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: solid 0.2rem #663399;
+    border-bottom: solid 0.2rem #013243;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
@@ -171,7 +186,7 @@ button {
     padding: 0.7rem;
     border-radius: 100rem;
     border: 1px solid #ccc;
-    background-color: #663399;
+    background-color: #013243;
     color: #fff;
     text-transform: uppercase;
 }
@@ -180,7 +195,7 @@ button:focus { outline:0; }
 
 button:hover,
 button:active {
-    background-color: #9b59b6;
+    background-color: #5333ed;
 }
 
 .btn-brochure {
@@ -218,11 +233,11 @@ button:active {
 
 .section-events {
     padding-bottom: 8rem;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 .event-box {
-    background-color: #fff;
+    background-color: #E9F7F9;
     border-radius: 0.5rem;
     width: 100%;
     padding: 2rem 2rem;
@@ -255,7 +270,7 @@ button:active {
 
 .section-artists {
     list-style: none;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 .section-artists .grid { padding-top: 4rem; }
