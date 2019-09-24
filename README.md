@@ -1,1 +1,2 @@
-# waiheke-jazz-festival
+# Waiheke Jazz Festival SPA
+
