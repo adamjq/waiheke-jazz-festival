@@ -27,75 +27,84 @@ const EventSection = () => {
 
             <div className="row">
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
-                    image="good-friday-groove.png"
+                    link=""
+                    image="ardijah-2.jpg"
                     alt="Good Friday Groove"
-                    date="19 April 2019"
+                    name="Good Friday Groove"
+                    date="Friday, April 10th 2020"
                     location="Rangihoua Estate" 
                 />
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
-                    image="good-friday-groove.png"
-                    alt="Good Friday Groove"
-                    date="19 April 2019"
-                    location="Rangihoua Estate" 
+                    link=""
+                    image="the-last-waltz.jpeg"
+                    alt="Last Waltz Tribute"
+                    name="Last Waltz Tribute"
+                    date="Friday, April 10th 2020"
+                    location="Artworks Theatre" 
                 />
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
-                    image="good-friday-groove.png"
-                    alt="Good Friday Groove"
-                    date="19 April 2019"
-                    location="Rangihoua Estate" 
+                    link=""
+                    image="richard-adams.jpeg"
+                    alt="Painting Workshop"
+                    name="Painting Workshop"
+                    date="Friday, April 10th 2020"
+                    location="Owhanake Barn" 
                 />
             </div>
 
             <div className="row">
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
-                    image="good-friday-groove.png"
-                    alt="Good Friday Groove"
-                    date="19 April 2019"
-                    location="Rangihoua Estate" 
+                    link=""
+                    image="the-eastern-2.jpg"
+                    alt="Jazz In The Village"
+                    name="Jazz In The Village"
+                    date="Saturday, April 11th 2020"
+                    location="Artworks Theatre" 
                 />
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
-                    image="good-friday-groove.png"
-                    alt="Good Friday Groove"
-                    date="19 April 2019"
-                    location="Rangihoua Estate" 
+                    link=""
+                    image="love-square-2.jpg"
+                    alt="Paint To Jazz"
+                    name="Paint To Jazz"
+                    date="Saturday, April 11th 2020"
+                    location="Artworks Theatre" 
                 />
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
-                    image="good-friday-groove.png"
-                    alt="Good Friday Groove"
-                    date="19 April 2019"
-                    location="Rangihoua Estate" 
+                    link=""
+                    image="yoko-zuna.jpg"
+                    alt="Yoko Zuna & Frank Booker"
+                    name="Yoko Zuna & Frank Booker"
+                    date="Saturday, April 11th 2020"
+                    location="Stonyridge" 
                 />
             </div>
 
-            <div className="row">
+            {/* <div className="row">
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
+                    link=""
                     image="good-friday-groove.png"
-                    alt="Good Friday Groove"
-                    date="19 April 2019"
-                    location="Rangihoua Estate" 
+                    alt="The Supper Club"
+                    name="The Supper Club"
+                    date="Saturday, April 11th 2020"
+                    location="Waiheke Island Resort" 
                 />
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
+                    link=""
                     image="good-friday-groove.png"
-                    alt="Good Friday Groove"
-                    date="19 April 2019"
-                    location="Rangihoua Estate" 
+                    alt="Grande Finale"
+                    name="Grande Finale"
+                    date="Sunday, April 12th 2020"
+                    location="Rangihoua Estate"
                 />
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-good-friday-groove"
+                    link=""
                     image="good-friday-groove.png"
-                    alt="Good Friday Groove"
-                    date="19 April 2019"
-                    location="Rangihoua Estate" 
+                    alt="Jazz Long Lunch"
+                    name="Jazz Long Lunch"
+                    date="Monday, April 13th 2020"
+                    location="Batch"
                 />
-            </div>
+            </div> */}
         </section>
     );
 }

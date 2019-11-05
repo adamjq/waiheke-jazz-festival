@@ -11,9 +11,9 @@ const App = () => {
     return (
         <div className="App">
             <Header />
-            {/* <LineupSection />
+            <LineupSection />
             <EventSection />
-            <ArtistSection />
+            { /* <ArtistSection />
             <SponsorSection />
             <Footer /> */}
         </div>

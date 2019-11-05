@@ -20,9 +20,9 @@ const Header = () => {
                 <img className="logo-img" src={LOGO} alt="Waiheke Jazz Festival Logo"/>
             </div>
 
-            <div className="row">
+            {/* <div className="row">
                 <p className="tickets-text">Tickets on sale November 2019</p>
-            </div>
+            </div> */}
         </header>
         
 

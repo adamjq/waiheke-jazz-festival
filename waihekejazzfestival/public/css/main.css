@@ -208,6 +208,19 @@ button:active {
     border-bottom: none;
 }
 
+.btn-tickets {
+    width: 70%;
+    margin-left: .5rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.btn-tickets a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none;
+}
+
 /* ------------------------------------------------*/
 /* LINEUP */
 /* ------------------------------------------------*/
@@ -240,7 +253,6 @@ button:active {
     background-color: #E9F7F9;
     border-radius: 0.5rem;
     width: 100%;
-    padding: 2rem 2rem;
     margin: 0 auto;
     -webkit-box-shadow: 0 0.2rem 0.2rem #efefef;
     box-shadow: 0 0.2rem 0.2rem #efefef;
@@ -258,6 +270,21 @@ button:active {
 
 .event-image img {
     width: 100%;
+}
+
+.event-info {
+    padding: 2rem 2rem;
+}
+
+.event-details {
+    padding-bottom: 2rem;
+}
+
+.event-name {
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-bottom: .5rem;
+    font-weight: 400;
 }
 
 .event-location {

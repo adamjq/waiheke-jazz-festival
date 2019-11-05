@@ -10,9 +10,21 @@ const EventCard = (props) => {
                 <div className="event-image">
                     <img src={BASE_PATH + props.image} alt={props.alt}/>
                 </div>
-                <div>
-                    <p className="event-date">{props.date}</p>
-                    <p className="event-location">{props.location}</p>
+                <div className="event-info">
+
+                    <div className="event-details">
+                        <p className="event-name">{props.name}</p>
+                        <p className="event-location">{props.location}</p>
+                        <p className="event-date">{props.date}</p>
+                    </div>
+
+                    <div className="event-ticket-button">
+                        <button type="button" className="btn-tickets">
+                            <a href="" target="_blank">
+                            Buy Tickets
+                            </a>
+                        </button>
+                    </div>
                 </div>
             </div>
             </a>
