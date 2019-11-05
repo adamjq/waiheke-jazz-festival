@@ -26,17 +26,66 @@ const ArtistSection = () => {
                 <div className="artist-items">
 
                 <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-trinity-roots"
-                    image="trinity.jpg"
-                    alt="Trinity Roots"
-                    name="Trinity Roots"
+                    link=""
+                    image="the-eastern.jpg"
+                    alt="The Eastern"
+                    name="The Eastern"
                 />
 
                 <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2019/apr/waiheke-jazz-trinity-roots"
-                    image="trinity.jpg"
-                    alt="Trinity Roots"
-                    name="Trinity Roots"
+                    link=""
+                    image="yoko-zuna.jpg"
+                    alt="Yoko Zuna"
+                    name="Yoko Zuna"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="frank-booker.jpg"
+                    alt="Frank Booker"
+                    name="Frank Booker"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="ardijah-3.jpg"
+                    alt="Ardijah"
+                    name="Ardijah"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="love-square.jpg"
+                    alt="Love Square"
+                    name="Love Square"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="nairobi-trio.jpg"
+                    alt="Nairobi Trio"
+                    name="Nairobi Trio"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="mr-speaker.jpeg"
+                    alt="Mr Speaker"
+                    name="Mr Speaker"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="richard-adams-2.jpeg"
+                    alt="Richard Adams"
+                    name="Richard Adams"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="white-chapel-jak.jpg"
+                    alt="White Chapel Jak"
+                    name="White Chapel Jak"
                 />
 
                 </div>

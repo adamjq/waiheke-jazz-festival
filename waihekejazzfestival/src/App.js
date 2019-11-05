@@ -13,9 +13,9 @@ const App = () => {
             <Header />
             <LineupSection />
             <EventSection />
-            { /* <ArtistSection />
-            <SponsorSection />
-            <Footer /> */}
+            <ArtistSection />
+            { /*<SponsorSection /> */}
+            {/* <Footer /> */}
         </div>
     );
 }

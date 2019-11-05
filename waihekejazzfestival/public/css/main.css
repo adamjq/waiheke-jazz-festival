@@ -282,7 +282,6 @@ button:active {
 
 .event-name {
     text-transform: uppercase;
-    font-size: 3rem;
     padding-bottom: .5rem;
     font-weight: 400;
 }

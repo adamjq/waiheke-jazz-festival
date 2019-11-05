@@ -63,7 +63,7 @@ const EventSection = () => {
                 />
                 <EventCard  
                     link=""
-                    image="love-square-2.jpg"
+                    image="love-square-3.jpg"
                     alt="Paint To Jazz"
                     name="Paint To Jazz"
                     date="Saturday, April 11th 2020"
@@ -71,7 +71,7 @@ const EventSection = () => {
                 />
                 <EventCard  
                     link=""
-                    image="yoko-zuna.jpg"
+                    image="yoko.jpeg"
                     alt="Yoko Zuna & Frank Booker"
                     name="Yoko Zuna & Frank Booker"
                     date="Saturday, April 11th 2020"
@@ -79,10 +79,10 @@ const EventSection = () => {
                 />
             </div>
 
-            {/* <div className="row">
+            <div className="row">
                 <EventCard  
                     link=""
-                    image="good-friday-groove.png"
+                    image="jazz-image.jpg"
                     alt="The Supper Club"
                     name="The Supper Club"
                     date="Saturday, April 11th 2020"
@@ -90,7 +90,7 @@ const EventSection = () => {
                 />
                 <EventCard  
                     link=""
-                    image="good-friday-groove.png"
+                    image="mr-speaker-2.jpg"
                     alt="Grande Finale"
                     name="Grande Finale"
                     date="Sunday, April 12th 2020"
@@ -98,13 +98,13 @@ const EventSection = () => {
                 />
                 <EventCard  
                     link=""
-                    image="good-friday-groove.png"
+                    image="nairobi-trio-3.jpg"
                     alt="Jazz Long Lunch"
                     name="Jazz Long Lunch"
                     date="Monday, April 13th 2020"
                     location="Batch"
                 />
-            </div> */}
+            </div>
         </section>
     );
 }

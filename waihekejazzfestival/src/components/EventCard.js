@@ -13,7 +13,7 @@ const EventCard = (props) => {
                 <div className="event-info">
 
                     <div className="event-details">
-                        <p className="event-name">{props.name}</p>
+                        <h4 className="event-name">{props.name}</h4>
                         <p className="event-location">{props.location}</p>
                         <p className="event-date">{props.date}</p>
                     </div>
