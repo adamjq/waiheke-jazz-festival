@@ -6,5 +6,8 @@ dev:
 build:
 	npm run build
 
-deploy: build
+gh-pages-deploy:
 	npm run deploy
+
+prod-deploy: build
+	npm run aws-deploy
