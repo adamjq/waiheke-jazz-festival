@@ -120,7 +120,13 @@
         font-size: .8rem;
     }
 
-    .event-box { width: 70%;}
+    .event-box { width: 90%;}
+
+    .event-name { padding-bottom: 0rem; }
+
+    /* .event-info { padding: 1rem 1rem;} */
+    
+    .event-details { padding-bottom: 1rem; }
 
     .event-name { font-size: 1.6rem; }
 
