@@ -227,6 +227,7 @@ button:active {
 
 .section-lineup {
     padding-bottom: 8rem;
+    background-color: #fff;
 }
 
 .lineup-artists {
@@ -246,11 +247,12 @@ button:active {
 
 .section-events {
     padding-bottom: 8rem;
-    background-color: #fff;
+    background-color: #E9F7F9;
 }
 
 .event-box {
-    background-color: #E9F7F9;
+    /* background-color: #E9F7F9; */
+    background-color: #fff;
     border-radius: 0.5rem;
     width: 100%;
     margin: 0 auto;
@@ -270,6 +272,8 @@ button:active {
 
 .event-image img {
     width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 .event-info {
