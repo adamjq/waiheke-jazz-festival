@@ -27,9 +27,16 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link=""
-                    image="the-eastern.jpg"
-                    alt="The Eastern"
-                    name="The Eastern"
+                    image="sex-on-toast-2.jpg"
+                    alt="Sex On Toast"
+                    name="Sex On Toast"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="jamie-lees-tali.jpg"
+                    alt="MC Tali"
+                    name="MC Tali"
                 />
 
                 <ArtistItem 
@@ -39,11 +46,18 @@ const ArtistSection = () => {
                     name="Yoko Zuna"
                 />
 
-                <ArtistItem 
+                {/* <ArtistItem 
                     link=""
                     image="frank-booker.jpg"
                     alt="Frank Booker"
                     name="Frank Booker"
+                /> */}
+
+                <ArtistItem 
+                    link=""
+                    image="the-eastern.jpg"
+                    alt="The Eastern"
+                    name="The Eastern"
                 />
 
                 <ArtistItem 
@@ -69,6 +83,13 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link=""
+                    image="alae-2.png"
+                    alt="Alae"
+                    name="Alae"
+                />
+
+                <ArtistItem 
+                    link=""
                     image="mr-speaker.jpeg"
                     alt="Mr Speaker"
                     name="Mr Speaker"
@@ -76,9 +97,16 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link=""
-                    image="richard-adams-2.jpeg"
+                    image="richard-adams.jpg"
                     alt="Richard Adams"
                     name="Richard Adams"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="denis-hepi.jpg"
+                    alt="Denis Hepi"
+                    name="Denis Hepi"
                 />
 
                 <ArtistItem 

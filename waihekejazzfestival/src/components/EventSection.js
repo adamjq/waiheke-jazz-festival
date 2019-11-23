@@ -28,7 +28,7 @@ const EventSection = () => {
             <div className="row">
                 <EventCard  
                     link=""
-                    image="ardijah-2.jpg"
+                    image="sex-on-toast.jpg"
                     alt="Good Friday Groove"
                     name="Good Friday Groove"
                     date="Friday, April 10th 2020"
@@ -72,8 +72,8 @@ const EventSection = () => {
                 <EventCard  
                     link=""
                     image="yoko.jpeg"
-                    alt="Yoko Zuna & Frank Booker"
-                    name="Yoko Zuna & Frank Booker"
+                    alt="Yoko Zuna"
+                    name="Yoko Zuna"
                     date="Saturday, April 11th 2020"
                     location="Stonyridge" 
                 />

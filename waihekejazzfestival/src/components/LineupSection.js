@@ -6,12 +6,12 @@ const LineupSection = () => {
             <div className="row">
                 <h3>Lineup</h3>
                 <div className="lineup-artists">
-                {/* <div className="first-tier"><p></p></div> */}
-                <div className="second-tier"><p>ARDIJAH | Yoko Zuna</p></div>
-                <div className="second-tier"><p>The Eastern | Frank Booker</p></div>
-                <div className="second-tier"><p>Love Square | Nairobi Trio</p></div>
+                <div className="first-tier"><p>ARDIJAH | MC Tali</p></div>
+                <div className="second-tier"><p>ALAE | Yoko Zuna | Sex On Toast</p></div>
+                <div className="second-tier"><p>The Eastern | Love Square | Nairobi Trio</p></div>
                 <div className="third-tier"><p>Mr Speaker | White Chapel Jak</p></div>
-                <div className="third-tier"><p>Delta Blues | JT & The Saxman</p></div>
+                <div className="third-tier"><p>The Last Waltz Tribute Show</p></div>
+                <div className="third-tier"><p>JT & The Saxman | Delta Blues | Denis Hepi</p></div>
                 </div>
             </div>
         </section>
