@@ -27,16 +27,16 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link=""
-                    image="sex-on-toast-2.jpg"
+                    image="sot.jpg"
                     alt="Sex On Toast"
                     name="Sex On Toast"
                 />
 
                 <ArtistItem 
                     link=""
-                    image="jamie-lees-tali.jpg"
-                    alt="MC Tali"
-                    name="MC Tali"
+                    image="miloux.jpg"
+                    alt="Miloux"
+                    name="Miloux"
                 />
 
                 <ArtistItem 
@@ -46,12 +46,12 @@ const ArtistSection = () => {
                     name="Yoko Zuna"
                 />
 
-                {/* <ArtistItem 
+                <ArtistItem 
                     link=""
                     image="frank-booker.jpg"
                     alt="Frank Booker"
                     name="Frank Booker"
-                /> */}
+                />
 
                 <ArtistItem 
                     link=""
@@ -69,13 +69,6 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link=""
-                    image="love-square.jpg"
-                    alt="Love Square"
-                    name="Love Square"
-                />
-
-                <ArtistItem 
-                    link=""
                     image="nairobi-trio.jpg"
                     alt="Nairobi Trio"
                     name="Nairobi Trio"
@@ -83,7 +76,14 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link=""
-                    image="alae-2.png"
+                    image="love-square.jpg"
+                    alt="Love Square"
+                    name="Love Square"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="Alae.jpg"
                     alt="Alae"
                     name="Alae"
                 />
@@ -97,23 +97,16 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link=""
-                    image="richard-adams.jpg"
-                    alt="Richard Adams"
-                    name="Richard Adams"
-                />
-
-                <ArtistItem 
-                    link=""
-                    image="denis-hepi.jpg"
-                    alt="Denis Hepi"
-                    name="Denis Hepi"
-                />
-
-                <ArtistItem 
-                    link=""
-                    image="white-chapel-jak.jpg"
+                    image="whitechapel.jpg"
                     alt="White Chapel Jak"
                     name="White Chapel Jak"
+                />
+
+                <ArtistItem 
+                    link=""
+                    image="skilaa.jpg"
+                    alt="Skilaa"
+                    name="Skilaa"
                 />
 
                 </div>

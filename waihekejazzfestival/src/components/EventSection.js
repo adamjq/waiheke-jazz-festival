@@ -18,7 +18,7 @@ const EventSection = () => {
                 <p className="long-copy">
                     Click to see the full program
                     <button type="button" className="btn-brochure">
-                        <a href="src/media/brochure.png" target="_blank">
+                        <a href="./media/brochure.pdf" target="_blank">
                         Brochure
                         </a>
                     </button>
@@ -28,7 +28,7 @@ const EventSection = () => {
             <div className="row">
                 <EventCard  
                     link=""
-                    image="sex-on-toast.jpg"
+                    image="miloux1.jpg"
                     alt="Good Friday Groove"
                     name="Good Friday Groove"
                     date="Friday, April 10th 2020"
@@ -37,16 +37,16 @@ const EventSection = () => {
                 <EventCard  
                     link=""
                     image="the-last-waltz.jpeg"
-                    alt="Last Waltz Tribute"
-                    name="Last Waltz Tribute"
+                    alt="Songs From The Last Waltz"
+                    name="Songs From The Last Waltz"
                     date="Friday, April 10th 2020"
                     location="Artworks Theatre" 
                 />
                 <EventCard  
                     link=""
-                    image="richard-adams.jpeg"
-                    alt="Painting Workshop"
-                    name="Painting Workshop"
+                    image="richard-adams.jpg"
+                    alt="Painters Workshop"
+                    name="Painters Workshop"
                     date="Friday, April 10th 2020"
                     location="Owhanake Barn" 
                 />
@@ -63,30 +63,30 @@ const EventSection = () => {
                 />
                 <EventCard  
                     link=""
-                    image="love-square-3.jpg"
-                    alt="Paint To Jazz"
-                    name="Paint To Jazz"
+                    image="yoko.jpeg"
+                    alt="Yoko Zuna"
+                    name='Saturday Night "Live"'
                     date="Saturday, April 11th 2020"
-                    location="Artworks Theatre" 
+                    location="Stonyridge" 
                 />
                 <EventCard  
                     link=""
-                    image="yoko.jpeg"
-                    alt="Yoko Zuna"
-                    name="Yoko Zuna"
+                    image="love-square-3.jpg"
+                    alt="Paint To Jazz"
+                    name="Supper Club"
                     date="Saturday, April 11th 2020"
-                    location="Stonyridge" 
+                    location="Waiheke Island Resort"
                 />
             </div>
 
             <div className="row">
                 <EventCard  
                     link=""
-                    image="jazz-image.jpg"
-                    alt="The Supper Club"
-                    name="The Supper Club"
+                    image="sax.jpg"
+                    alt="Jazz In The Village"
+                    name="Jazz In The Village"
                     date="Saturday, April 11th 2020"
-                    location="Waiheke Island Resort" 
+                    location="Artworks Theatre"
                 />
                 <EventCard  
                     link=""
@@ -102,7 +102,7 @@ const EventSection = () => {
                     alt="Jazz Long Lunch"
                     name="Jazz Long Lunch"
                     date="Monday, April 13th 2020"
-                    location="Batch"
+                    location="Batch Winery"
                 />
             </div>
         </section>
