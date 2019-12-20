@@ -88,7 +88,7 @@ h4 {
 
 /* Hero image centered and fills whole viewport */
 header {
-    /* background-image: linear-gradient(to bottom, rgb(83,51,237, 0.2), rgb(83,51,237, 0.2)), url(../img/background-greyscale.png); */
+    background-image: url(../img/clouds.png);
     background-size: cover;
     background-position: center;
     height: 100vh;

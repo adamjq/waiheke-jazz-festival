@@ -4,7 +4,7 @@ const BASE_PATH = "./img/sponsors/"
 
 const SponsorImage = (props) => {
     return (
-        <div className="col span-1-of-5 sponsor-image">
+        <div className="col span-1-of-6 sponsor-image">
             <img src={BASE_PATH + props.image} alt={props.alt}/>
         </div>
     );
@@ -22,6 +22,7 @@ const SponsorSection = () => {
             <SponsorImage image="LogoMusicPlanet.png" alt="Music Planet Logo"/>
             <SponsorImage image="PostageStampWinesLogo.png" alt="Postage Stamp Wines Logo"/>
             <SponsorImage image="PerpetualGuardian.png" alt="Perpetual Guardian Logo"/>
+            <SponsorImage image="ZeroWasteLogo.jpg" alt="Zero Waste Logo"/>
         </div>
         </section>
     );

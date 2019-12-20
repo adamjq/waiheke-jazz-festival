@@ -27,7 +27,7 @@ const EventSection = () => {
 
             <div className="row">
                 <EventCard  
-                    link=""
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-good-friday-groove"
                     image="miloux1.jpg"
                     alt="Good Friday Groove"
                     name="Good Friday Groove"
@@ -35,7 +35,7 @@ const EventSection = () => {
                     location="Rangihoua Estate" 
                 />
                 <EventCard  
-                    link=""
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-the-last-waltz"
                     image="the-last-waltz.jpeg"
                     alt="Songs From The Last Waltz"
                     name="Songs From The Last Waltz"
@@ -43,7 +43,7 @@ const EventSection = () => {
                     location="Artworks Theatre" 
                 />
                 <EventCard  
-                    link=""
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-painters-workshop"
                     image="richard-adams.jpg"
                     alt="Painters Workshop"
                     name="Painters Workshop"
@@ -54,7 +54,7 @@ const EventSection = () => {
 
             <div className="row">
                 <EventCard  
-                    link=""
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-jazz-in-the-village"
                     image="the-eastern-2.jpg"
                     alt="Jazz In The Village"
                     name="Jazz In The Village"
@@ -62,17 +62,17 @@ const EventSection = () => {
                     location="Artworks Theatre" 
                 />
                 <EventCard  
-                    link=""
-                    image="yoko.jpeg"
-                    alt="Yoko Zuna"
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-saturday-night-live"
+                    image="alae.jpg"
+                    alt='Saturday Night "Live"'
                     name='Saturday Night "Live"'
                     date="Saturday, April 11th 2020"
                     location="Stonyridge" 
                 />
                 <EventCard  
-                    link=""
-                    image="love-square-3.jpg"
-                    alt="Paint To Jazz"
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-supper-club"
+                    image="skilaa.jpg"
+                    alt="Supper Club"
                     name="Supper Club"
                     date="Saturday, April 11th 2020"
                     location="Waiheke Island Resort"
@@ -81,24 +81,24 @@ const EventSection = () => {
 
             <div className="row">
                 <EventCard  
-                    link=""
-                    image="sax.jpg"
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-jazz-in-the-village"
+                    image="mr-speaker.jpeg"
                     alt="Jazz In The Village"
                     name="Jazz In The Village"
-                    date="Saturday, April 11th 2020"
+                    date="Sunday, April 12th 2020"
                     location="Artworks Theatre"
                 />
                 <EventCard  
-                    link=""
-                    image="mr-speaker-2.jpg"
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-grand-finale"
+                    image="sax.jpg"
                     alt="Grande Finale"
                     name="Grande Finale"
                     date="Sunday, April 12th 2020"
                     location="Rangihoua Estate"
                 />
                 <EventCard  
-                    link=""
-                    image="nairobi-trio-3.jpg"
+                    link="https://www.iticket.co.nz/events/2020/apr/waijam-jazz-long-lunch"
+                    image="love-square-3.jpg"
                     alt="Jazz Long Lunch"
                     name="Jazz Long Lunch"
                     date="Monday, April 13th 2020"
