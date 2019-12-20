@@ -7,7 +7,7 @@ const LineupSection = () => {
                 <h3>Lineup</h3>
                 <div className="lineup-artists">
                 <div className="first-tier"><p>ARDIJAH | Sex On Toast</p></div>
-                <div className="first-tier"><p>Yoko Zuna | Frank Booker</p></div>
+                <div className="second-tier"><p>Yoko Zuna | Frank Booker</p></div>
                 <div className="second-tier"><p>ALAE | Miloux | The Eastern</p></div>
                 <div className="second-tier"><p>Nairobi Trio | Love Square </p></div>
                 <div className="second-tier"><p>Mr Speaker | White Chapel Jak</p></div>

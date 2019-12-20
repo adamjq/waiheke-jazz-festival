@@ -90,7 +90,7 @@ const EventSection = () => {
                 />
                 <EventCard  
                     link="https://www.iticket.co.nz/events/2020/apr/waijam-grand-finale"
-                    image="sax.jpg"
+                    image="jt_and_sax.png"
                     alt="Grande Finale"
                     name="Grande Finale"
                     date="Sunday, April 12th 2020"
