@@ -83,7 +83,7 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link="https://www.iticket.co.nz/events/2020/apr/waijam-saturday-night-live"
-                    image="Alae.jpg"
+                    image="alae.jpg"
                     alt="Alae"
                     name="Alae"
                 />
