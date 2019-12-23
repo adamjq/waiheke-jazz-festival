@@ -17,11 +17,11 @@ const SponsorSection = () => {
         </div>
 
         <div className="row">
+            <SponsorImage image="PerpetualGuardian.png" alt="Perpetual Guardian Logo"/>
             <SponsorImage image="AucklandCouncilLogo.png" alt="Auckland Council Logo" />
             <SponsorImage image="Fullers360Logo.png" alt="Fullers 360 Logo"/>
             <SponsorImage image="LogoMusicPlanet.png" alt="Music Planet Logo"/>
             <SponsorImage image="PostageStampWinesLogo.png" alt="Postage Stamp Wines Logo"/>
-            <SponsorImage image="PerpetualGuardian.png" alt="Perpetual Guardian Logo"/>
         </div>
         </section>
     );

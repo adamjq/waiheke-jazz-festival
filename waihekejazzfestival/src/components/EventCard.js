@@ -4,7 +4,7 @@ const BASE_PATH = "./img/events/"
 
 const EventCard = (props) => {
     return (
-        <div className="col span-1-of-3 box">
+        <div className="col span-1-of-2 box">
             <a href={props.link} target="_blank" rel="noopener noreferrer">
             <div className="event-box">
                 <div className="event-image">
@@ -20,7 +20,7 @@ const EventCard = (props) => {
 
                     <div className="event-ticket-button">
                         <button type="button" className="btn-tickets">
-                            <a href="" target="_blank">
+                            <a href={props.link} target="_blank">
                             Buy Tickets
                             </a>
                         </button>
