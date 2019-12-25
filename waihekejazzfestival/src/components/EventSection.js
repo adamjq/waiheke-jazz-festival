@@ -72,7 +72,7 @@ const EventSection = () => {
                     alt='Saturday Night "Live"'
                     name='Saturday Night "Live"'
                     date="Saturday, April 11th"
-                    location="Stonyridge" 
+                    location="Rangihoua Estate" 
                 />
                 <EventCard  
                     link="https://www.iticket.co.nz/events/2020/apr/waijam-supper-club"
