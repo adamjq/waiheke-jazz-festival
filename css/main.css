@@ -96,8 +96,8 @@ header {
 }
 
 .logo-img {
-    width: 50%;
-    max-width: 90rem;
+    width: 100%;
+    /* max-width: 90rem; */
     position: absolute;
     left: 0;
     top: 0;
