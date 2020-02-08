@@ -15,14 +15,22 @@ const EventSection = () => {
                     The line-up for the show of your choice and all the info you'll need to know is in the event listing on the iTicket site - 
                     book now! Some events have limited tickets available.
                 </p>
-                <p className="long-copy">
-                    Click to see the full program
-                    <button type="button" className="btn-brochure">
-                        <a href="./media/brochure.pdf" target="_blank">
-                        Brochure
-                        </a>
-                    </button>
-                </p>
+                <div>
+                    <div className="button-links">
+                        <p className="long-copy">
+                            <button type="button" className="btn-brochure">
+                                <a href="./media/brochure.pdf" target="_blank">
+                                Brochure
+                                </a>
+                            </button>
+                            <button type="button" className="btn-brochure">
+                                <a  href="https://www.iticket.co.nz/go-to/waiheke-jazz-2020" target="_blank" rel="noopener noreferrer">
+                                All Tickets
+                                </a>
+                            </button>
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <div className="row">

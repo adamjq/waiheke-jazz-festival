@@ -96,7 +96,7 @@ header {
 }
 
 .logo-img {
-    width: 50%;
+    width: 45%;
     max-width: 90rem;
     position: absolute;
     left: 0;
@@ -196,6 +196,10 @@ button:focus { outline:0; }
 button:hover,
 button:active {
     background-color: #5333ed;
+}
+
+.button-links {
+    text-align: center;
 }
 
 .btn-brochure {
