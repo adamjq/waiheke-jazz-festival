@@ -11,3 +11,7 @@ Deploy to production AWS S3 bucket:
 ```
 make prod-deploy
 ```
+
+# Notes:
+
+Make sure the build code is added to the S3 folder `waiheke-jazz-festival`
