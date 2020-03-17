@@ -25,6 +25,8 @@ html {
     font-family: 'Oswald', 'Arial', sans-serif;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    background-image: url(../img/clouds.png);
+    background-repeat: repeat-y;
 }
 
 .clearfix {zoom: 1;}
@@ -42,7 +44,7 @@ html {
 }
 
 section {
-    padding: 8rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
 
 .box {
@@ -87,12 +89,29 @@ h4 {
 /* ------------------------------------------------*/
 
 /* Hero image centered and fills whole viewport */
-header {
+/* header {
     background-image: url(../img/clouds.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+} */
+
+.announcement-logo-img {
+    padding-top: 4rem;
+    width: 30%;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display:block;
+}
+
+.announcement-text {
+    width: 90%;
+    max-width: 90rem;
+    text-align: center;
+    padding-top: 4rem;
+    margin: 0 auto;
 }
 
 .logo-img {
@@ -362,10 +381,10 @@ button:active {
 /* SPONSORS */
 /* ------------------------------------------------*/
 
-.section-sponsors {
+/* .section-sponsors {
     padding-bottom: 8rem;
     background-color: #fff;
-}
+} */
 
 .sponsor-image img {
     max-width: 90%;

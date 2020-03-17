@@ -30,7 +30,7 @@
 @media only screen and (max-width: 767px) {
     
     p { font-size: 1.5rem; }
-    section { padding: 3rem 0 0 0; }
+    section { padding: 2rem 0 0 0; }
     
     .row,
     .hero-text-box { padding: 0 4%; }
@@ -40,6 +40,10 @@
         position: relative; 
         padding: 8rem 0;
         width: 100%;
+    }
+
+    .announcement-logo-img {
+        width: 80%;
     }
 
     /* Hide navigation for smaller devices */
