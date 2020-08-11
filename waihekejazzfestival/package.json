@@ -13,7 +13,7 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "aws-deploy": "aws s3 sync build/ s3://com-waiheke-jazz-festival-website",
+    "aws-deploy": "aws s3 sync build/ s3://com-waiheke-jazz-festival-website && aws s3 sync build/ s3://com-waiheke-jazz-festival-website/waiheke-jazz-festival",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -3,7 +3,7 @@ import React from 'react';
 
 import NavBar from "./NavBar"
 
-const LOGO = "./img/landing-page.png"
+const LOGO = "./img/waiheke-jazz-fest-2021-banner.png"
 const Header = () => {
     return (
         <header>
@@ -15,13 +15,12 @@ const Header = () => {
 
                 <div  className="announcement-text">
                     <p className="long-copy">
-                    Following the Government announcement of 16 March it is clear that the Waiheke Jazz, Art & Music Festival can no longer go ahead. 
-                    The health and well-being of all New Zealanders is paramount. We all have a part to play in keeping our communities safe and well. 
-                    If you have purchased a ticket to the festival, iTicket will be in touch regarding ticket refunds. You can choose to donate part or all of your refund to help secure the future of the festival.
+                    It was disappointing to have had to cancel the 2020 festival due to COVID 19.
+                    Obviously it was the right thing to do and we received unprecedented messages of support from all of our customers and stakeholders - we thank you sincerely for this. 
                     </p>
                     <p className="long-copy">
-                    To all of our suppliers, entertainers, venues, sponsors, staff and volunteers and the public - thanks for all your support. 
-                    We look forward to working with you all when we have a clear directive from government. Stay safe and well. Kia kaha
+                    The 2021 Festival will be announced in October 2020. Stay connected <a href="https://www.facebook.com/waihekejazzfestival/">and like our Facebook page</a>. 
+                    You will receive real-time updates, ticket release dates and announcements for the 2021 festival.
                     </p>
                 </div>
             </div>

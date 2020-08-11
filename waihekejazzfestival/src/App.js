@@ -14,7 +14,7 @@ const App = () => {
             {/* <LineupSection />
             <EventSection />
             <ArtistSection /> */}
-            <SponsorSection />
+            {/* <SponsorSection /> */}
             {/* <Footer /> */}
         </div>
     );

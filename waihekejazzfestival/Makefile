@@ -1,5 +1,8 @@
 default: dev
 
+clean:
+	rm -rf build
+
 dev:
 	npm start
 
@@ -9,5 +12,5 @@ build:
 gh-pages-deploy:
 	npm run deploy
 
-prod-deploy: build
+prod-deploy: clean build
 	npm run aws-deploy
