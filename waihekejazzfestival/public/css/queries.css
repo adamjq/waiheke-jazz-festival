@@ -16,6 +16,10 @@
     body { font-size: 1.6rem; }
     
     section { padding: 6rem 0 0 0; }
+
+    .event-name { font-size: 2.3rem; }
+    .event-time { font-size: 1.4rem; }
+    .event-artists p { font-size: 1.6rem; }
     
     .long-copy {
         width: 80%;
@@ -36,6 +40,8 @@
     .hero-text-box { padding: 0 4%; }
 
     header { height: auto;}
+    .heading-text-main-title { font-size: 5rem; }
+    .heading-text-dates { font-size: 3rem; }
     .logo-img { 
         position: relative; 
         padding: 8rem 0;
@@ -57,22 +63,24 @@
         margin-left: 0%;
     }
 
-    /* .event-info { padding: 1rem 1rem; } */
-
     .btn-tickets {
         padding: 1rem;
         font-size: 1rem;
     }
 
-    .event-info { padding: 1rem 0; }
-
-    .event-name { font-size: 2rem; }
+    .event-details { padding: 1rem; }
+    .event-artists { padding: 1rem; }
+    .event-name { font-size: 2rem; padding: 0 1rem; }
+    .event-time p { font-size: 1rem; }
+    .event-date p { font-size: 1.4rem; }
+    .event-artists p { font-size: 1.4rem; }
 
     .section-artists .grid { padding-top: 2rem; }
     .lineup-artists .first-tier p { font-size: 4rem; }
     .lineup-artists .second-tier p { font-size: 3rem; }
     .lineup-artists .third-tier p { font-size: 2.2rem; }
 
+    header { padding-top: 4rem; }
     .section-lineup { padding-bottom: 4rem; }
     .section-events { padding-bottom: 4rem; }
     .section-sponsors { padding-bottom: 4rem; }
@@ -103,6 +111,9 @@
         margin-top: 1rem; 
     }
 
+    .heading-text-main-title { font-size: 2.8rem; }
+    .heading-text-dates { font-size: 1.8rem; }
+
     .col { 
         width: 100%;
         margin: 0 0 4% 0;
@@ -125,14 +136,8 @@
     }
 
     .event-box { width: 90%;}
-
-    .event-name { padding-bottom: 0rem; }
-
-    /* .event-info { padding: 1rem 1rem;} */
-    
-    .event-details { padding-bottom: 1rem; }
-
-    .event-name { font-size: 1.6rem; }
+    .event-name { font-size: 1.6rem; padding-bottom: 0rem; }
+    .event-artists p { font-size: 1.2rem; }
 
     section { padding: 2.5rem 0; }
 

@@ -26,87 +26,52 @@ const ArtistSection = () => {
                 <div className="artist-items">
 
                 <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-good-friday-groove"
-                    image="sot.jpg"
-                    alt="Sex On Toast"
-                    name="Sex On Toast"
-                />
-
-                <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-good-friday-groove"
-                    image="miloux.jpg"
-                    alt="Miloux"
-                    name="Miloux"
-                />
-
-                <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-saturday-night-live"
-                    image="yoko-zuna.jpg"
-                    alt="Yoko Zuna"
-                    name="Yoko Zuna"
-                />
-
-                <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-saturday-night-live"
-                    image="frank-booker-pleasure.jpg"
-                    alt="Frank Booker"
-                    name="Frank Booker"
-                />
-
-                <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-jazz-in-the-village"
+                    link="https://www.iticket.co.nz/events/2021/apr"
                     image="the-eastern.jpg"
                     alt="The Eastern"
                     name="The Eastern"
                 />
-
+                
                 <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-good-friday-groove"
-                    image="ardjiah.jpg"
-                    alt="Ardijah"
-                    name="Ardijah"
+                    link="https://www.iticket.co.nz/events/2021/apr"
+                    image="HopetounBrown.jpg"
+                    alt="Hopetoun Brown"
+                    name="Hopetoun Brown"
                 />
 
                 <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-jazz-long-lunch"
+                    link="https://www.iticket.co.nz/events/2021/apr"
+                    image="RadioRebelde.jpg"
+                    alt="Radio Rebelde"
+                    name="Radio Rebelde"
+                />
+
+                <ArtistItem 
+                    link="https://www.iticket.co.nz/events/2021/apr"
                     image="nairobi.jpg"
                     alt="Nairobi Trio"
                     name="Nairobi Trio"
                 />
 
+                {/* <ArtistItem 
+                    link="https://www.iticket.co.nz/events/2021/apr"
+                    image="AndrewDixon.jpg"
+                    alt="JT & The Saxman"
+                    name="JT & The Saxman"
+                /> */}
+
                 <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-supper-club"
-                    image="love-square.jpg"
-                    alt="Love Square"
-                    name="Love Square"
+                    link="https://www.iticket.co.nz/events/2021/apr"
+                    image="cousinalice.jpg"
+                    alt="Cousin Alice"
+                    name="Cousin Alice"
                 />
 
                 <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-saturday-night-live"
-                    image="alae.jpg"
-                    alt="Alae"
-                    name="Alae"
-                />
-
-                <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-jazz-in-the-village"
-                    image="mr-speaker-forward.jpg"
-                    alt="Mr Speaker"
-                    name="Mr Speaker"
-                />
-
-                <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-good-friday-groove"
+                    link="https://www.iticket.co.nz/events/2021/apr"
                     image="whitechapel.jpg"
                     alt="White Chapel Jak"
                     name="White Chapel Jak"
-                />
-
-                <ArtistItem 
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-supper-club"
-                    image="skilaa.jpg"
-                    alt="Skilaa"
-                    name="Skilaa"
                 />
 
                 </div>

@@ -24,7 +24,7 @@ const EventSection = () => {
                                 </a>
                             </button>
                             <button type="button" className="btn-brochure">
-                                <a  href="https://www.iticket.co.nz/go-to/waiheke-jazz-2020" target="_blank" rel="noopener noreferrer">
+                                <a  href="https://www.iticket.co.nz/events/2021/apr" target="_blank" rel="noopener noreferrer">
                                 All Tickets
                                 </a>
                             </button>
@@ -35,81 +35,50 @@ const EventSection = () => {
 
             <div className="row">
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-good-friday-groove"
-                    image="miloux1.jpg"
+                    link="https://www.iticket.co.nz/events/2021/apr"
+                    image="GoodFridayGrove.png"
                     alt="Good Friday Groove"
                     name="Good Friday Groove"
-                    date="Friday, April 10th"
-                    location="Rangihoua Estate" 
-                />
-                <EventCard  
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-the-last-waltz"
-                    image="the-last-waltz.jpeg"
-                    alt="Songs From The Last Waltz"
-                    name="Songs From The Last Waltz"
-                    date="Friday, April 10th"
-                    location="Artworks Theatre" 
-                />
-
-            </div>
-
-            <div className="row">
-                <EventCard  
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-painters-workshop"
-                    image="richard-adams.jpg"
-                    alt="Painters Workshop"
-                    name="Painters Workshop"
-                    date="Friday, April 10th"
-                    location="Owhanake Barn" 
-                />
-
-                <EventCard  
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-jazz-in-the-village"
-                    image="the-eastern-2.jpg"
-                    alt="Jazz In The Village"
-                    name="Jazz In The Village"
-                    date="Saturday, April 11th & Sunday, April 12th"
-                    location="Artworks Theatre" 
-                />
-            </div>
-
-            <div className="row">
-                <EventCard  
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-saturday-night-live"
-                    image="alae.jpg"
-                    alt='Saturday Night "Live"'
-                    name='Saturday Night "Live"'
-                    date="Saturday, April 11th"
-                    location="Rangihoua Estate" 
-                />
-                <EventCard  
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-supper-club"
-                    image="skilaa.jpg"
-                    alt="Supper Club"
-                    name="Supper Club"
-                    date="Saturday, April 11th"
-                    location="Waiheke Island Resort"
-                />
-            </div>
-
-            <div className="row">
-                <EventCard  
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-grand-finale"
-                    image="jt_and_sax.png"
-                    alt="Grande Finale"
-                    name="Grande Finale"
-                    date="Sunday, April 12th"
+                    date="Friday 2 April"
+                    time="12 - 5pm"
                     location="Rangihoua Estate"
+                    artists={["The Eastern | Radio Rebelde", <br/>, "White Chapel Jak", <br/>, "Gypsy Kings Tribute Band"]}
                 />
                 <EventCard  
-                    link="https://www.iticket.co.nz/events/2020/apr/waijam-jazz-long-lunch"
-                    image="love-square-3.jpg"
+                    link="https://www.iticket.co.nz/events/2021/apr"
+                    image="FillmoreEast.png"
+                    alt='"One Night At The Fillmore East"'
+                    name='"One Night At The Fillmore East"'
+                    date="Saturday 3 April"
+                    time="8 - 10pm"
+                    location="Artworks Theatre"
+                    artists={["Joplin, Hendrix, and Many More", <br/>, "Featuring Aaron Carpenter | Solomon Cole", <br/>, "Alastair Riddell | Meredith Bean"]}
+                />
+            </div>
+
+            <div className="row">
+                <EventCard  
+                    link="https://www.iticket.co.nz/events/2021/apr"
+                    image="JazzOnTheGreen.png"
+                    alt="Jazz On The Green"
+                    name="Jazz On The Green"
+                    date="Sunday 4 April"
+                    time="4:30 - 7:30pm"
+                    location="Rangihoua Estate"
+                    artists={["The Eastern | Hopetoun Brown", <br/>, "Chelsea Prastitti | JT & The Saxman", <br/>, "& Many More..."]}
+                />
+                <EventCard  
+                    link="https://www.iticket.co.nz/events/2021/apr"
+                    image="JazzLongLunch.png"
                     alt="Jazz Long Lunch"
                     name="Jazz Long Lunch"
-                    date="Monday, April 13th"
-                    location="Batch Winery"
+                    date="Monday 5 April"
+                    time="1 - 4pm"
+                    location="Batch Winery" 
+                    artists={["Nairobi Trio", <br/>, "With guest appearances from", <br/>, "The Eastern & Hopetoun Brown"]}
                 />
             </div>
+
         </section>
     );
 }
