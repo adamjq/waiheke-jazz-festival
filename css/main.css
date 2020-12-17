@@ -12,14 +12,9 @@
 }
 
 html {
-    /* background-color:#D9F1F5; */
-    background-color:#E9F7F9;
-    /* background-color:#CAEBF2; */
-    /* background-color: #99D3DF; */
-    /* background-color: black; */
-    /* color: #4d13d1; */
-    color: #013243;
-    /* color: #24252a; */
+    background-color:#FF0381;
+    color: #FFFFFF;
+    /* HEADING color: #F6D446; */
     font-size: 62.5%;
     font-weight: 300;
     font-family: 'Oswald', 'Arial', sans-serif;
@@ -42,7 +37,7 @@ html {
 }
 
 section {
-    padding: 8rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
 
 .box {
@@ -70,7 +65,7 @@ h3 {
 h3:after {
     display: block;
     height: 2px;
-    background-color: #013243;
+    background-color: #F6D446;
     content: " ";
     width: 10rem;
     margin: 0 auto;
@@ -87,17 +82,43 @@ h4 {
 /* ------------------------------------------------*/
 
 /* Hero image centered and fills whole viewport */
-header {
-    background-image: url(../img/clouds.png);
+/* header {
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+} */
+
+.header{
+    padding: 8rem 0;
 }
 
-.logo-img {
-    width: 100%;
-    /* max-width: 90rem; */
+.hero-text-box {
+    text-align: center;
+}
+
+.heading-text-presents {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+.heading-text-main-title {
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.heading-text-dates {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+}
+
+/* .logo-img {
+    width: 45%;
+    max-width: 90rem;
     position: absolute;
     left: 0;
     top: 0;
@@ -106,7 +127,7 @@ header {
     display: block;
     margin: auto;
     pointer-events: none;
-}
+} */
 
 .tickets-text {
     text-align: center;
@@ -135,12 +156,12 @@ header {
     text-transform: uppercase;
     border-bottom: solid 0.2rem transparent;
     padding: 0.8rem 0;
-    color: #013243;
+    color: #FFFFFF;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: solid 0.2rem #013243;
+    border-bottom: solid 0.2rem #F6D446;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
@@ -174,10 +195,9 @@ a:visited {
     transition: border-bottom 0.2s, color 0.2s;
 }
 
-
 a:hover,
 a:active {
-    color: #555;
+    color: #C3A113;
     border-bottom: 0.1rem solid transparent;
 }
 
@@ -185,9 +205,9 @@ button {
     width: 10rem;
     padding: 0.7rem;
     border-radius: 100rem;
-    border: 1px solid #ccc;
-    background-color: #013243;
-    color: #fff;
+    border: 1px solid #C3A113;
+    background-color: #F6D446;
+    color: #000000;
     text-transform: uppercase;
 }
 
@@ -195,7 +215,11 @@ button:focus { outline:0; }
 
 button:hover,
 button:active {
-    background-color: #5333ed;
+    background-color: #C3A113;
+}
+
+.button-links {
+    text-align: center;
 }
 
 .btn-brochure {
@@ -203,7 +227,7 @@ button:active {
 }
 
 .btn-brochure a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     border-bottom: none;
 }
@@ -216,7 +240,7 @@ button:active {
 }
 
 .btn-tickets a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     border-bottom: none;
 }
@@ -227,7 +251,7 @@ button:active {
 
 .section-lineup {
     padding-bottom: 8rem;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .lineup-artists {
@@ -247,12 +271,11 @@ button:active {
 
 .section-events {
     padding-bottom: 8rem;
-    background-color: #E9F7F9;
 }
-
+/* 
 .event-box {
-    /* background-color: #E9F7F9; */
-    background-color: #fff;
+    background-color: #000;
+    color: #F6D446;
     border-radius: 0.5rem;
     width: 100%;
     margin: 0 auto;
@@ -292,6 +315,77 @@ button:active {
 
 .event-location {
     text-transform: uppercase;
+} */
+
+.event-box {
+    background-color: #000;
+    color: #FFFFFF;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-box div:first-child {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.event-image {
+    border-top: 0.1rem solid #eaeaea;
+}
+
+.event-image img {
+    width: 100%;
+}
+
+.event-artists {
+    padding: 2rem;
+}
+
+.event-artists p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.event-details {
+    padding: 2rem;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */     
+    display: flex; /* Standard syntax */
+    width: 100%;
+}
+
+.event-time {
+    width: 50%;
+    margin: 0px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.event-date {
+    color: #F6D446;
+    width: 50%;
+    margin: 0px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.event-time p {
+    font-size: 1.5rem;
+}
+
+.event-date p {
+    font-size: 2rem;
+}
+
+.event-name {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 2rem; 
 }
 
 /* ----------------------------------------------- */
@@ -300,7 +394,6 @@ button:active {
 
 .section-artists {
     list-style: none;
-    background-color: #fff;
 }
 
 .section-artists .grid { padding-top: 4rem; }
@@ -360,13 +453,15 @@ button:active {
 
 .section-sponsors {
     padding-bottom: 8rem;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .sponsor-image img {
-    max-width: 90%;
+    /* max-width: 90%; */
+    width: 200px;
     display: block;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* ------------------------------------------------*/

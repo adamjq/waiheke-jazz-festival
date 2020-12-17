@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/waiheke-jazz-festival/static/js/main.8ebdbf82.chunk.js",
-    "main.js.map": "/waiheke-jazz-festival/static/js/main.8ebdbf82.chunk.js.map",
+    "main.js": "/waiheke-jazz-festival/static/js/main.a22579ad.chunk.js",
+    "main.js.map": "/waiheke-jazz-festival/static/js/main.a22579ad.chunk.js.map",
     "runtime-main.js": "/waiheke-jazz-festival/static/js/runtime-main.536493f6.js",
     "runtime-main.js.map": "/waiheke-jazz-festival/static/js/runtime-main.536493f6.js.map",
     "static/js/2.27352f73.chunk.js": "/waiheke-jazz-festival/static/js/2.27352f73.chunk.js",
     "static/js/2.27352f73.chunk.js.map": "/waiheke-jazz-festival/static/js/2.27352f73.chunk.js.map",
     "index.html": "/waiheke-jazz-festival/index.html",
-    "precache-manifest.f6b160996db8e3d7d782fce36c076bfb.js": "/waiheke-jazz-festival/precache-manifest.f6b160996db8e3d7d782fce36c076bfb.js",
+    "precache-manifest.6531d648dda142c5cce225f371774adf.js": "/waiheke-jazz-festival/precache-manifest.6531d648dda142c5cce225f371774adf.js",
     "service-worker.js": "/waiheke-jazz-festival/service-worker.js"
   }
 }
