@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/waiheke-jazz-festival/precache-manifest.6531d648dda142c5cce225f371774adf.js"
+  "/waiheke-jazz-festival/precache-manifest.a337247ac929e43fbdad0358533f8cf2.js"
 );
 
 self.addEventListener('message', (event) => {
