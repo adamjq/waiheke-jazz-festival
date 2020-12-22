@@ -17,9 +17,9 @@
     
     section { padding: 6rem 0 0 0; }
 
-    .event-name { font-size: 2.3rem; }
-    .event-time { font-size: 1.4rem; }
-    .event-artists p { font-size: 1.6rem; }
+    .event-heading .event-date p { font-size: 2.5rem; }
+    .event-heading .event-name p { font-size: 2.5rem; }
+    .event-location p, .event-time p { font-size: 2rem; }
     
     .long-copy {
         width: 80%;
@@ -68,12 +68,14 @@
         font-size: 1rem;
     }
 
-    .event-details { padding: 1rem; }
-    .event-artists { padding: 1rem; }
-    .event-name { font-size: 2rem; padding: 0 1rem; }
-    .event-time p { font-size: 1rem; }
-    .event-date p { font-size: 1.4rem; }
-    .event-artists p { font-size: 1.4rem; }
+    .event-details { flex: 100%; }
+    .event-image { flex: 100%; }
+
+    .event-heading .event-date p { font-size: 2.2rem; text-align: center; }
+    .event-heading .event-name p { font-size: 2.3rem; text-align: center; }
+    .event-location p, .event-time p { font-size: 2rem; text-align: center; }
+    .event-info { padding: 1rem 1rem; }
+    .event-description { text-align: center; }
 
     .section-artists .grid { padding-top: 2rem; }
     .lineup-artists .first-tier p { font-size: 4rem; }
@@ -136,8 +138,10 @@
     }
 
     .event-box { width: 90%;}
-    .event-name { font-size: 1.6rem; padding-bottom: 0rem; }
-    .event-artists p { font-size: 1.2rem; }
+    .event-heading .event-date p { font-size: 1.5rem; }
+    .event-heading .event-name p { font-size: 1.5rem; }
+    .event-location p, .event-time p { font-size: 1.2rem; }
+    .event-description { font-size: 1.2rem; }
 
     section { padding: 2.5rem 0; }
 
