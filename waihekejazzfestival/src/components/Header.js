@@ -9,9 +9,9 @@ const Header = () => {
             <NavBar/>
 
             <div className="hero-text-box">
-                {/* <h2 className="heading-text-presents">
-                    Waiheke Jazz Festival Presents
-                </h2> */}
+                <h2 className="heading-text-presents">
+                    Waiheke International Jazz Festival Presents
+                </h2>
                 <h1 className="heading-text-main-title">
                     Waiheke Jazz
                 </h1>

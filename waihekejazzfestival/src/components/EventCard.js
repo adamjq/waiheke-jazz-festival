@@ -34,35 +34,33 @@ const BASE_PATH = "./img/events/"
 
 const EventCard = (props) => {
     return (
-        <div className="col span-1-of-2 box">
-            <a href={props.link} target="_blank" rel="noopener noreferrer">
+        <div className="row">
+            <a href={props.link}>
             <div className="event-box">
                 <div className="event-details">
-                    <div className="event-time">
-                        <p>{props.location} {props.time}</p>
+                    <div className="event-heading">
+                        <div className="event-date">
+                            <p>{props.date}</p>
+                        </div>
+                        <h4 className="event-name">{props.name}</h4>
                     </div>
-                    <div className="event-date">
-                        <p>{props.date}</p>
+
+                    <div className="event-info">
+                        <div className="event-location">
+                            <p>{props.location}</p>
+                        </div>
+                        <div className="event-time">
+                            <p>{props.time}</p>
+                        </div>
+                        <div className="event-description">
+                            <p>{props.description}</p>
+                        </div>
                     </div>
                 </div>
 
-                <h4 className="event-name">{props.name}</h4>
-                
                 <div className="event-image">
                     <img src={BASE_PATH + props.image} alt={props.alt}/>
                 </div>
-                
-                <div className="event-artists">
-                    <p>{props.artists}</p>
-                </div>
-
-                    {/* <div className="event-ticket-button">
-                        <button type="button" className="btn-tickets">
-                            <a href={props.link} target="_blank" rel="noopener noreferrer">
-                            Buy Tickets
-                            </a>
-                        </button>
-                    </div> */}
             </div>
             </a>
         </div>
