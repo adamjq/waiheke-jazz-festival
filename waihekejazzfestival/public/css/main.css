@@ -112,7 +112,6 @@ h4 {
 .heading-text-dates {
     font-size: 5rem;
     text-transform: uppercase;
-    color: #000000;
     font-weight: 500;
 }
 
@@ -280,14 +279,15 @@ button:active {
     width: 80%;
     margin: 2rem auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .event-details {
-    flex: 2;
+    flex: 67%;
 }
 
 .event-image {
-    flex: 1;
+    flex: 33%;
 }
 
 .event-image img {
@@ -298,23 +298,23 @@ button:active {
     background-color: #000000;
     color: #FFFFFF;
     text-align: right;
-    padding: 1rem 4rem; 
+    padding: 1rem 2rem; 
     text-transform: uppercase;
 }
 
 .event-heading .event-date p {
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 3.5rem;
+    font-weight: 500;
     color: #F6D446;
 }
 
-.event-heading .event-name {
+.event-heading .event-name p {
     font-size: 3rem;
     font-weight: 400;
 }
 
 .event-info {
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
 }
 
 .event-location p, .event-time p {
@@ -325,8 +325,9 @@ button:active {
 }
 
 .event-description {
+    padding-top: 1rem;
     font-size: 1.4rem;
-    text-align: center;
+    text-align: right;
 }
 
 /* ----------------------------------------------- */
