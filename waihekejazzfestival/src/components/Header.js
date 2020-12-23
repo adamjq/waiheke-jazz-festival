@@ -5,6 +5,7 @@ import NavBar from "./NavBar"
 
 const Header = () => {
     return (
+        <section className="section-heading">
         <header>
             <NavBar/>
             <div className="hero-text-box">
@@ -22,6 +23,7 @@ const Header = () => {
                 </h2>
             </div>
         </header>
+        </section>
     );
 }
 

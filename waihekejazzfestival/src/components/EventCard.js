@@ -5,8 +5,10 @@ const BASE_PATH = "./img/events/"
 const EventCard = (props) => {
     return (
         <div className="row">
+            
             <a href={props.link}>
             <div className="event-box">
+
                 <div className="event-details">
                     <div className="event-heading">
                         <div className="event-date">
@@ -40,8 +42,10 @@ const EventCard = (props) => {
                 <div className="event-artists artists-small">
                     <p>{props.artistsSmall}</p>
                 </div>
+            
             </div>
             </a>
+
         </div>
     );
 }

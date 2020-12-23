@@ -88,9 +88,8 @@ h3:after {
     height: 100vh;
     background-attachment: fixed;
 } */
-
-.heading {
-    padding: 8rem 0;
+.section-heading {
+    padding-bottom: 8rem;
 }
 
 .hero-text-box {
@@ -101,8 +100,9 @@ h3:after {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    color: #000000;
     padding-top: 4rem;
-    font-size: 1.8rem;
 }
 
 .heading-text-main-title {
@@ -112,7 +112,7 @@ h3:after {
 }
 
 .heading-text-dates {
-    font-size: 4rem;
+    font-size: 3.6rem;
     text-transform: uppercase;
     font-weight: 800;
 }
@@ -130,19 +130,9 @@ h3:after {
     pointer-events: none;
 } */
 
-.tickets-text {
-    text-align: center;
-    margin: 0 auto;
-    bottom: 40px;
-    left:0;
-    position:fixed; 
-    width:100%;
-}
-
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 5rem;
 }
 
 .main-nav li {
@@ -272,6 +262,8 @@ button:active {
 
 .section-events {
     padding-bottom: 4rem;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 .event-box {
@@ -282,6 +274,7 @@ button:active {
     margin: 2rem auto;
     display: flex;
     flex-wrap: wrap;
+    border-color: 1px solid #FF0381;
 }
 
 .event-details {

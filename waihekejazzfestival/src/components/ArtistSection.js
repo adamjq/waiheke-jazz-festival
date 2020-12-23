@@ -67,6 +67,27 @@ const ArtistSection = () => {
                     name="White Chapel Jak"
                 />
 
+<               ArtistItem 
+                    link="https://www.iticket.co.nz/events/2021/apr/wijf-sundowner"
+                    image="Saxman.jpg"
+                    alt="Andrew Dixon"
+                    name="Andrew Dixon"
+                />
+
+                <ArtistItem 
+                    link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
+                    image="AlastairRiddell.jpg"
+                    alt="Alastair Riddell"
+                    name="Alastair Riddell"
+                />
+
+                <ArtistItem 
+                    link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
+                    image="Solomon.jpg"
+                    alt="Solomon Cole Band"
+                    name="Solomon Cole Band"
+                />
+
                 </div>
             </div>
         </section>
