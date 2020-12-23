@@ -17,9 +17,10 @@
     
     section { padding: 6rem 0 0 0; }
 
-    .event-heading .event-date p { font-size: 2.5rem; }
-    .event-heading .event-name p { font-size: 2.5rem; }
+    .event-heading .event-date p { font-size: 2.3rem; }
+    .event-heading .event-name p { font-size: 2.3rem; }
     .event-location p, .event-time p { font-size: 2rem; }
+    .event-artists p { font-size: 1.4rem; }
     
     .long-copy {
         width: 80%;
@@ -40,6 +41,7 @@
     .hero-text-box { padding: 0 4%; }
 
     header { height: auto;}
+    .heading-text-presents { font-size: 1.3rem; padding-top: 0; padding-bottom: 1rem;}
     .heading-text-main-title { font-size: 5rem; }
     .heading-text-dates { font-size: 3rem; }
     .logo-img { 
@@ -56,7 +58,6 @@
     .main-nav { display: none; }
 
     h3 { font-size: 2.2rem; }
-    h4 { font-size: 2rem; }
     
     .long-copy {
         width: 100%;
@@ -83,9 +84,9 @@
     .lineup-artists .third-tier p { font-size: 2.2rem; }
 
     header { padding-top: 4rem; }
-    .section-lineup { padding-bottom: 4rem; }
-    .section-events { padding-bottom: 4rem; }
-    .section-sponsors { padding-bottom: 4rem; }
+    .section-lineup { padding-bottom: 2rem; }
+    .section-events { padding-bottom: 2rem; }
+    .section-sponsors { padding-bottom: 2rem; }
     .section-artists { padding-bottom: 0; }
 
     .section-artists .grid .artist-items .artist-item { flex: 1 1 50%; }
@@ -104,7 +105,6 @@
         font-size: 1.6rem; 
         margin-bottom: 1rem; 
     }
-    h4 { font-size: 1.2rem; }
 
     h3 { margin-bottom: 1rem; }
 
@@ -113,8 +113,9 @@
         margin-top: 1rem; 
     }
 
-    .heading-text-main-title { font-size: 2.8rem; }
-    .heading-text-dates { font-size: 1.8rem; }
+    .heading-text-presents { font-size: 1rem; }
+    .heading-text-main-title { font-size: 2.4rem; }
+    .heading-text-dates { font-size: 1.4rem; }
 
     .col { 
         width: 100%;
@@ -137,11 +138,15 @@
         font-size: .8rem;
     }
 
-    .event-box { width: 90%;}
+    .event-box { width: 90%; margin: 1rem auto;}
     .event-heading .event-date p { font-size: 1.5rem; }
     .event-heading .event-name p { font-size: 1.5rem; }
     .event-location p, .event-time p { font-size: 1.2rem; }
-    .event-description { font-size: 1.2rem; }
+    .event-description { font-size: 1rem; }
+    .event-artists p { font-size: .9rem; }
+    /* Hide artist listing with '|' for smaller devices */
+    .artists-large { display: none; }
+    .artists-small { display: block; }
 
     section { padding: 2.5rem 0; }
 

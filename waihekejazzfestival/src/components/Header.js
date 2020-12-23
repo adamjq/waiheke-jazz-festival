@@ -7,7 +7,6 @@ const Header = () => {
     return (
         <header>
             <NavBar/>
-
             <div className="hero-text-box">
                 <h2 className="heading-text-presents">
                     Waiheke International Jazz Festival Presents
@@ -23,8 +22,6 @@ const Header = () => {
                 </h2>
             </div>
         </header>
-        
-
     );
 }
 
