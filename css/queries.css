@@ -40,10 +40,9 @@
     .row,
     .hero-text-box { padding: 0 4%; }
 
-    header { height: auto;}
-    .heading-text-presents { font-size: 1.3rem; padding-top: 0; padding-bottom: 1rem;}
+    .heading-text-presents { font-size: .9rem; padding-bottom: 1rem;}
     .heading-text-main-title { font-size: 5rem; }
-    .heading-text-dates { font-size: 3rem; }
+    .heading-text-dates { font-size: 2.6rem; }
     .logo-img { 
         position: relative; 
         padding: 8rem 0;
@@ -83,7 +82,7 @@
     .lineup-artists .second-tier p { font-size: 3rem; }
     .lineup-artists .third-tier p { font-size: 2.2rem; }
 
-    header { padding-top: 4rem; }
+    .section-heading { padding-bottom: 4rem; }
     .section-lineup { padding-bottom: 2rem; }
     .section-events { padding-bottom: 2rem; }
     .section-sponsors { padding-bottom: 2rem; }
@@ -113,9 +112,9 @@
         margin-top: 1rem; 
     }
 
-    .heading-text-presents { font-size: 1rem; }
+    .heading-text-presents { font-size: .8rem; }
     .heading-text-main-title { font-size: 2.4rem; }
-    .heading-text-dates { font-size: 1.4rem; }
+    .heading-text-dates { font-size: 1.3rem; }
 
     .col { 
         width: 100%;
