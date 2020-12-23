@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af09e8b1bca31d7c6de045042b066a74",
+    "revision": "403260f727e75bc5fcc253477a801c41",
     "url": "/waiheke-jazz-festival/index.html"
   },
   {
