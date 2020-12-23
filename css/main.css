@@ -11,13 +11,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: LeagueSpartanCustom;
+    src: "../fonts/LeagueSpartan-Bold.otf"
+}
+
 html {
     background-color:#FF0381;
     color: #FFFFFF;
     /* HEADING color: #F6D446; */
     font-size: 62.5%;
     font-weight: 300;
-    font-family: 'Oswald', 'Arial', sans-serif;
+    font-family: 'LeagueSpartanCustom', 'Arial', sans-serif;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
@@ -48,7 +53,7 @@ section {
 /* HEADINGS */
 /* ------------------------------------------------*/
 
-h3, h4 {
+h3 {
     margin: 0;
     font-size: 5rem;
     font-weight: 400;
@@ -72,11 +77,6 @@ h3:after {
     margin-top: 3rem;
 }
 
-h4 {
-    font-size: 2.2rem;
-    margin-bottom: 1.5rem;
- } 
-
 /* ------------------------------------------------*/
 /* HEADER */
 /* ------------------------------------------------*/
@@ -89,7 +89,7 @@ h4 {
     background-attachment: fixed;
 } */
 
-.header{
+.heading {
     padding: 8rem 0;
 }
 
@@ -99,20 +99,22 @@ h4 {
 
 .heading-text-presents {
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.1rem;
+    padding-top: 4rem;
+    font-size: 1.8rem;
 }
 
 .heading-text-main-title {
     font-size: 7rem;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .heading-text-dates {
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 /* .logo-img {
@@ -269,7 +271,7 @@ button:active {
 /* ------------------------------------------------*/
 
 .section-events {
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
 }
 
 .event-box {
@@ -304,13 +306,13 @@ button:active {
 
 .event-heading .event-date p {
     font-size: 3.5rem;
-    font-weight: 500;
+    font-weight: 700;
     color: #F6D446;
 }
 
 .event-heading .event-name p {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .event-info {
@@ -319,7 +321,7 @@ button:active {
 
 .event-location p, .event-time p {
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 600;
     text-align: right;
     text-transform: uppercase;
 }
@@ -328,7 +330,24 @@ button:active {
     padding-top: 1rem;
     font-size: 1.4rem;
     text-align: right;
+    font-family: 'Open Sans', 'Arial', sans-serif;
 }
+
+.event-artists {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-transform: uppercase;
+    width: 100%;
+    padding: .5rem;
+}
+
+.event-artists p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.artists-small { display: none; }
+
 
 /* ----------------------------------------------- */
 /* ARTISTS */
