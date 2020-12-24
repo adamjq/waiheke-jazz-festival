@@ -89,7 +89,7 @@ h3:after {
     background-attachment: fixed;
 } */
 .section-heading {
-    padding-bottom: 8rem;
+    padding-bottom: 12rem;
 }
 
 .hero-text-box {
@@ -102,7 +102,7 @@ h3:after {
     letter-spacing: 0.1rem;
     font-size: 1.6rem;
     color: #000000;
-    padding-top: 4rem;
+    padding-top: 12rem;
 }
 
 .heading-text-main-title {
@@ -162,8 +162,9 @@ h3:after {
 /* ------------------------------------------------*/
 
 p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 145%;
+    font-family: 'Open Sans', 'Arial', sans-serif;
 }
 
 .long-copy {
@@ -263,18 +264,15 @@ button:active {
 .section-events {
     padding-bottom: 4rem;
     color: #000000;
-    background-color: #FFFFFF;
 }
 
 .event-box {
     background-color: #FFFFFF;
     color: #000000;
-    border-radius: 0.5rem;
     width: 80%;
-    margin: 2rem auto;
     display: flex;
     flex-wrap: wrap;
-    border-color: 1px solid #FF0381;
+    margin: 2rem auto;
 }
 
 .event-details {
@@ -287,6 +285,7 @@ button:active {
 
 .event-image img {
     width: 100%;
+    vertical-align: bottom;
 }
 
 .event-heading {
@@ -298,13 +297,13 @@ button:active {
 }
 
 .event-heading .event-date p {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #F6D446;
 }
 
 .event-heading .event-name p {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 700;
 }
 
@@ -321,9 +320,11 @@ button:active {
 
 .event-description {
     padding-top: 1rem;
+}
+
+.event-description p {
     font-size: 1.4rem;
     text-align: right;
-    font-family: 'Open Sans', 'Arial', sans-serif;
 }
 
 .event-artists {
