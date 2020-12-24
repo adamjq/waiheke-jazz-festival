@@ -27,10 +27,6 @@ const EventSection = () => {
                     To book tickets, click on the event icon of your choice - you will be linked directly to iTicket. 
                     Have your credit card ready - two more clicks and your tickets will be emailed directly to you. It's as simple as that! 
                 </p>
-                <p className="long-copy">
-                    The line-up for the show of your choice and all the info you'll need to know is in the event listing on the iTicket site - 
-                    book now! Some events have limited tickets available.
-                </p>
                 {/* <div>
                     <div className="button-links">
                         <p className="long-copy">
