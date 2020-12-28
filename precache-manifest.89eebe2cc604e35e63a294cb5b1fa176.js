@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bdf877fa079ccdbe3b663c7f63bcab7",
+    "revision": "7597f59deec7c5fc3ad4b58c475dd0c5",
     "url": "/waiheke-jazz-festival/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/waiheke-jazz-festival/static/js/2.27352f73.chunk.js"
   },
   {
-    "revision": "c0e4b04ae1d776dbe534",
-    "url": "/waiheke-jazz-festival/static/js/main.12382691.chunk.js"
+    "revision": "3901b058c65dc78bc56b",
+    "url": "/waiheke-jazz-festival/static/js/main.58203258.chunk.js"
   },
   {
     "revision": "74a643e7ad1ef86c0a12",
