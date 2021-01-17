@@ -3,7 +3,7 @@ import React from 'react';
 import EventCard from "./EventCard"
 
 const gfgText = `
-Rangihoua Estate's natural amphitheatre is the setting for the ever-popular GOOD FRIDAY GROOVE featuring diverse line-up covering Americana, Folk, Latin-Ska, Jazz, Soul, RnB and Salsa-Flamenco fusion. An easy day trip from Auckland Rangihoua Estate is fully licensed with artisan food stalls and on the scheduled Rocky Bay bus route.
+Four stunning acts deliver a diverse range of music, including americana, latin-ska, jazz, soul, R&B and salsa-flamenco. Rangihoua is a licensed venue with artisan food trucks and a spacious outdoor seating area. Bring a blanket or fold-up chair. Return trip on the JAZZABOUT BUS from Matiatia ($15 cash) or catch the scheduled Rocky Bay bus.
 `
 
 const filmoreText = `
@@ -11,7 +11,7 @@ A retrospective salute to the great performers who played the infamous "Fillmore
 `
 
 const sundownerText = `
-An afternoon of Jazz unlike any other! Some of Auckland's top Jazz artists perform for you at one of Waiheke's most relaxed and inviting venues at Wild Estate, Wild on Waiheke. On the scheduled Onetangi bus route. Don't miss this superb day trip experience
+An afternoon of Jazz unlike any other! Some of Auckland's top Jazz artists perform for you at one of Waiheke's most relaxed and inviting venues at Wild Estate, Wild on Waiheke. On the scheduled Onetangi bus route. Don't miss this superb day trip.
 `
 
 const longLunchText = `
@@ -27,7 +27,7 @@ const EventSection = () => {
                     To book tickets, click on the event icon of your choice - you will be linked directly to iTicket. 
                     Have your credit card ready - two more clicks and your tickets will be emailed directly to you. It's as simple as that! 
                 </p>
-                {/* <div>
+                <div>
                     <div className="button-links">
                         <p className="long-copy">
                             <button type="button" className="btn-brochure">
@@ -42,7 +42,7 @@ const EventSection = () => {
                             </button>
                         </p>
                     </div>
-                </div> */}
+                </div>
             </div>
 
             <EventCard  
