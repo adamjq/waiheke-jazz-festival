@@ -407,8 +407,8 @@ button:active {
 /* ------------------------------------------------*/
 
 .section-sponsors {
-    padding-bottom: 8rem;
-    /* background-color: #fff; */
+    padding-bottom: 4rem;
+    background-color: #fff;
 }
 
 .sponsor-image img {
