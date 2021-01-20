@@ -18,9 +18,9 @@ const ArtistItem = (props) => {
 const ArtistSection = () => {
     return (
         <section id="artists" className="section-artists">
-            <div className="row">
+            {/* <div className="row">
                 <h3>Artists</h3>
-            </div>
+            </div> */}
 
             <div className="grid">
                 <div className="artist-items">

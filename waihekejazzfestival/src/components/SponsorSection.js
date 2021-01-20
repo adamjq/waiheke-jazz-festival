@@ -14,9 +14,9 @@ const SponsorImage = (props) => {
 const SponsorSection = () => {
     return (
         <section id="sponsors" className="section-sponsors">
-        <div className="row">
+        {/* <div className="row">
             <h3>Sponsors</h3>
-        </div>
+        </div> */}
 
         <div className="row">
             {/* <SponsorImage image="PerpetualGuardian.png" alt="Perpetual Guardian Logo"/>
