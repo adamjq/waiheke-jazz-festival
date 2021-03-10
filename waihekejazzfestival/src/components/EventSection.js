@@ -6,6 +6,17 @@ const gfgText = `
 Four stunning acts deliver a diverse range of music, including americana, latin-ska, jazz, soul, R&B and salsa-flamenco. Rangihoua is a licensed venue with artisan food trucks and a spacious outdoor seating area. Bring a blanket or fold-up chair. Return trip on the JAZZABOUT BUS from Matiatia ($15 cash) or catch the scheduled Rocky Bay bus.
 `
 
+const jazzaboutBusText = `
+    DEPART MATIATIA 10am, 10.45am, 11.30am.
+    DEPART RANGIHOUA ESTATE 4.30pm, 5.15pm, 6pm.
+    Pay driver $15 cash.
+`
+
+const weirderSideText = `
+Hop aboard the Jazzabout bus for a magical mystery tour to experience the "Death of Love Part 2" - unusual versions of music from Tom Waits and Nick Cave, along with performances from special guests. 
+Pick Up 1pm sharp. Drop Off 3pm. Outside the Oneroa Library.
+`
+
 const filmoreText = `
 A retrospective salute to the great performers who played the infamous "Fillmore East" in New York in the late '60's and early '70's including Janis Joplin, Jimi Hendrix, the Allman brothers and many more. LIMITED TICKETS AVAILABLE
 `
@@ -58,8 +69,29 @@ const EventSection = () => {
                 artistsSmall={["White Chapel Jak", <br/>, "The Eastern", <br/>, "Radio Rebelde", <br/>, "Gypsy Kings Tribute Band"]}
             />
             <EventCard  
+                link="https://www.iticket.co.nz/go-to/waiheke-jazz-festival-2021"
+                image="JAZZABOUT_BUS.png"
+                alt="Jazzabout Bus"
+                name="Jazzabout Bus"
+                date="Friday 2 April"
+                time=""
+                location=""
+                description={[<strong>JAZZABOUT BUS SCHEDULE</strong>, <br/>,<br/>,<strong>DEPART MATIATIA 10am, 10.45am, 11.30am</strong>, <br/>, <strong>DEPART RANGIHOUA ESTATE 4.30pm, 5.15pm, 6pm</strong>, <br/>,<br/>, "Pay driver $15 cash."]}
+                // description={jazzaboutBusText}
+            />
+            <EventCard  
+                link="http://www.iticket.co.nz/events/2021/apr/wijf-weirder-side"
+                image="weirder_side.png"
+                alt='The Weirder Side of Jazz'
+                name='The Weirder Side of Jazz'
+                date="Saturday 3 April"
+                time="1 - 3pm"
+                location="Bus Trip & Show"
+                description={weirderSideText}
+            />
+            <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
-                image="FillmoreEast.png"
+                image="sold_out_profile.png"
                 alt='"One Night At The Fillmore East"'
                 name='"One Night At The Fillmore East"'
                 date="Saturday 3 April"
@@ -69,7 +101,6 @@ const EventSection = () => {
                 artists="Aaron Carpenter | Solomon Cole | Alastair Riddell | Meredith Bean | Dave Alley"
                 artistsSmall={["Aaron Carpenter", <br/>, "Solomon Cole", <br/>, "Alastair Riddell", <br/>, "Meredith Bean", <br/>, "Dave Alley"]}
             />
-
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-sundowner"
                 image="JazzOnTheGreen.png"
