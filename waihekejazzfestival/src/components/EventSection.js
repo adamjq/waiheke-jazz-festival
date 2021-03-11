@@ -4,11 +4,7 @@ import EventCard from "./EventCard"
 
 const weirderSideText = `
 Hop aboard the Jazzabout bus for a magical mystery tour to experience the "Death of Love Part 2" - unusual versions of music from Tom Waits and Nick Cave, along with performances from special guests. 
-Pick Up 1pm sharp. Drop Off 3pm. Outside the Oneroa Library.
-`
-
-const filmoreText = `
-A retrospective salute to the great performers who played the infamous "Fillmore East" in New York in the late '60's and early '70's including Janis Joplin, Jimi Hendrix, the Allman brothers and many more. LIMITED TICKETS AVAILABLE
+Pick up 1pm sharp. Drop off 3pm. Outside the Oneroa Library.
 `
 
 const sundownerText = `
@@ -16,7 +12,7 @@ An afternoon of Jazz unlike any other! Some of Auckland's top Jazz artists perfo
 `
 
 const longLunchText = `
-End your weekend on Waiheke at the now-legendary Jazz Long Lunch at Batch Winery - enjoy performances by New Zealand's favourite Jazz Entertainers the Nairobi trio and others while taking in the breathtaking views. Includes supmtuous 3 course lunch. LIMITED TICKETS AVAILABLE
+End your weekend on Waiheke at the now-legendary Jazz Long Lunch at Batch Winery - enjoy performances by New Zealand's favourite Jazz Entertainers the Nairobi trio and others while taking in the breathtaking views. Includes supmtuous 3 course lunch.
 `
 
 const EventSection = () => {
@@ -67,6 +63,8 @@ const EventSection = () => {
                 time="1 - 3pm"
                 location="Bus Trip & Show"
                 description={weirderSideText}
+                artists="Johnny Fleury"
+                artistsSmall="Johnny Fleury"
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
@@ -76,7 +74,8 @@ const EventSection = () => {
                 date="Saturday 3 April"
                 time="8 - 10pm"
                 location="Artworks Theatre"
-                description={filmoreText}
+                description={[`A retrospective salute to the great performers who played the infamous "Fillmore East" in New York in the late '60's and early '70's including Janis Joplin, Jimi Hendrix, the Allman brothers and many more.`
+                , <br/>, <br/>, <strong>SOLD OUT. Second Show Announced</strong>]}
                 artists="Aaron Carpenter | Solomon Cole | Alastair Riddell | Meredith Bean | Dave Alley"
                 artistsSmall={["Aaron Carpenter", <br/>, "Solomon Cole", <br/>, "Alastair Riddell", <br/>, "Meredith Bean", <br/>, "Dave Alley"]}
             />
@@ -94,7 +93,7 @@ const EventSection = () => {
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-long-lunch"
-                image="JazzLongLunch.png"
+                image="sold_out_jazz_lunch.png"
                 alt="Jazz Long Lunch"
                 name="Jazz Long Lunch"
                 date="Monday 5 April"
