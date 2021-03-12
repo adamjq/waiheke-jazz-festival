@@ -63,8 +63,8 @@ const EventSection = () => {
                 time="1 - 3pm"
                 location="Bus Trip & Show"
                 description={weirderSideText}
-                artists="Johnny Fleury"
-                artistsSmall="Johnny Fleury"
+                artists="Johnny Fleury | Floss Fleury"
+                artistsSmall={["Johnny Fleury", <br/>, "Floss Fleury"]}
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
