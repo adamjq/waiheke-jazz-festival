@@ -51,7 +51,7 @@ const EventSection = () => {
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
-                image="fillmore_book_now.png"
+                image="fillmore.png"
                 alt='"One Night At The Fillmore East"'
                 name='"One Night At The Fillmore East"'
                 date="Friday 2 April"
