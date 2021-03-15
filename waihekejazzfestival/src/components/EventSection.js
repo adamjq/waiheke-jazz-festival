@@ -2,11 +2,6 @@ import React from 'react';
 
 import EventCard from "./EventCard"
 
-const weirderSideText = `
-Hop aboard the Jazzabout bus for a magical mystery tour to experience the "Death of Love Part 2" - unusual versions of music from Tom Waits and Nick Cave, along with performances from special guests. 
-Pick up 1pm sharp. Drop off 3pm. Outside the Oneroa Library.
-`
-
 const sundownerText = `
 An afternoon of Jazz unlike any other! Some of Auckland's top Jazz artists perform for you at one of Waiheke's most relaxed and inviting venues at Wild Estate, Wild on Waiheke. On the scheduled Onetangi bus route. Don't miss this superb day trip.
 `
@@ -56,15 +51,27 @@ const EventSection = () => {
             />
             <EventCard  
                 link="http://www.iticket.co.nz/events/2021/apr/wijf-weirder-side"
-                image="weirder_side.png"
+                image="fringe_1.png"
                 alt='The Weirder Side of Jazz'
                 name='The Weirder Side of Jazz'
                 date="Saturday 3 April"
                 time="1 - 3pm"
                 location="Bus Trip & Show"
-                description={weirderSideText}
+                description={['Hop aboard the Jazzabout bus for a magical mystery tour to experience the "Death of Love Part 2" - unusual versions of music from Tom Waits and Nick Cave, along with performances from special guests.',<br/>,<br/>,<strong>PICK-UP 1pm sharp & DROP OFF 3pm outside the Library, Oneroa</strong> ]}
                 artists="Johnny Fleury | Floss Fleury"
                 artistsSmall={["Johnny Fleury", <br/>, "Floss Fleury"]}
+            />
+            <EventCard  
+                link="https://www.casitamiro.co.nz/shop/product/482170/1-good-friday-jazz--mireya-ramos-trio--2nd-april/"
+                image="fringe_2.png"
+                alt='Mireya Ramos Trio'
+                name='Mireya Ramos Trio'
+                date="Saturday 3 April"
+                time="7 - 11pm"
+                location="Casita Miro"
+                description={['Born in Puerto Rico, from the age of 17 Mireya paid her dues playing Mariachi, salsa, merengue, jazz, R&B and hip-hop. Mireya takes us through the Latin-tinged Americana landscape of the US, featuring classic Jazz as well as the Mexican tradition.',<br/>,<br/>,<strong>Ticket price includes 3 waves of Casita's famous tapas</strong> ]}
+                artists="Mireya Ramos Trio"
+                artistsSmall="Mireya Ramos Trio"
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
