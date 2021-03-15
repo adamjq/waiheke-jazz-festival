@@ -54,11 +54,11 @@ const EventSection = () => {
                 image="fillmore_book_now.png"
                 alt='"One Night At The Fillmore East"'
                 name='"One Night At The Fillmore East"'
-                date="Saturday 3 April"
+                date="Friday 2 April"
                 time="8 - 10pm"
                 location="Artworks Theatre"
                 description={[`A retrospective salute to the great performers who played the infamous "Fillmore East" in New York in the late '60's and early '70's including Janis Joplin, Jimi Hendrix, the Allman brothers and many more.`
-                , <br/>, <br/>, <strong>SOLD OUT. Second Show Announced</strong>]}
+                , <br/>, <br/>, <strong>Saturday 3rd April show SOLD OUT</strong>]}
                 artists="Aaron Carpenter | Solomon Cole | Alastair Riddell | Meredith Bean | Dave Alley"
                 artistsSmall={["Aaron Carpenter", <br/>, "Solomon Cole", <br/>, "Alastair Riddell", <br/>, "Meredith Bean", <br/>, "Dave Alley"]}
             />
