@@ -83,7 +83,7 @@ const ArtistSection = () => {
 
                 <ArtistItem 
                     link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
-                    image="Solomon.jpg"
+                    image="Solomon.png"
                     alt="Solomon Cole Band"
                     name="Solomon Cole Band"
                 />
