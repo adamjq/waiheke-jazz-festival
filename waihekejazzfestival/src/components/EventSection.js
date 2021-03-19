@@ -2,10 +2,6 @@ import React from 'react';
 
 import EventCard from "./EventCard"
 
-const sundownerText = `
-An afternoon of Jazz unlike any other! Some of Auckland's top Jazz artists perform for you at one of Waiheke's most relaxed and inviting venues at Wild Estate, Wild on Waiheke. On the scheduled Onetangi bus route. Don't miss this superb day trip.
-`
-
 const longLunchText = `
 End your weekend on Waiheke at the now-legendary Jazz Long Lunch at Batch Winery - enjoy performances by New Zealand's favourite Jazz Entertainers the Nairobi trio and others while taking in the breathtaking views. Includes supmtuous 3 course lunch.
 `
@@ -64,13 +60,14 @@ const EventSection = () => {
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-sundowner"
-                image="JazzOnTheGreen.png"
+                image="sold_out_sundowner.png"
                 alt="Jazz Sundowner"
                 name="Jazz Sundowner"
                 date="Sunday 4 April"
                 time="4:30 - 8pm"
                 location="Wild Estate, Wild on Waiheke"
-                description={sundownerText}
+                description={[`An afternoon of Jazz unlike any other! Some of Auckland's top Jazz artists perform for you at one of Waiheke's most relaxed and inviting venues at Wild Estate, Wild on Waiheke. On the scheduled Onetangi bus route. Don't miss this superb day trip.`
+                , <br/>, <br/>, <strong>Current allocation exhausted. Check back here before the event as more tickets may be released.</strong>]}
                 artists="The Eastern | Hopetoun Brown | Chelsea Prastitti | JT & The Saxman & more..."
                 artistsSmall={["The Eastern", <br/>, "Hopetoun Brown", <br/>, "Chelsea Prastitti", <br/>, "JT & The Saxman", <br/>, "& more..."]}
             />
