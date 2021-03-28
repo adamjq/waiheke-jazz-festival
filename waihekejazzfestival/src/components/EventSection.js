@@ -88,8 +88,8 @@ const EventSection = () => {
             { <h3>Fringe</h3> }
 
             <EventCard  
-                link="https://www.casitamiro.co.nz/shop/product/482170/1-good-friday-jazz--mireya-ramos-trio--2nd-april/"
-                image="fringe_2.png"
+                link="https://www.iticket.co.nz/go-to/waiheke-jazz-festival-2021"
+                image="sold_out_mireya.png"
                 alt='Mireya Ramos Trio'
                 name='Mireya Ramos Trio'
                 date="Friday 2 April"
