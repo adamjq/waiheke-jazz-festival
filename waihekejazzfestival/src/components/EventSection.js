@@ -101,7 +101,7 @@ const EventSection = () => {
             />
             <EventCard  
                 link="http://www.iticket.co.nz/events/2021/apr/wijf-weirder-side"
-                image="fringe_1.png"
+                image="weird_sold_out.png"
                 alt='The Weirder Side of Jazz'
                 name='The Weirder Side of Jazz'
                 date="Saturday 3 April"
