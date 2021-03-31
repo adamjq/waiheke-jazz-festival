@@ -15,7 +15,7 @@ const EventSection = () => {
                     To book tickets, click on the event icon of your choice - you will be linked directly to iTicket. 
                     Have your credit card ready - two more clicks and your tickets will be emailed directly to you. It's as simple as that! 
                 </p>
-                <div>
+                {/* <div>
                     <div className="button-links">
                         <p className="long-copy">
                             <button type="button" className="btn-brochure">
@@ -30,7 +30,7 @@ const EventSection = () => {
                             </button>
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <EventCard  
@@ -47,14 +47,14 @@ const EventSection = () => {
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-fillmore-east"
-                image="fillmore.png"
+                image="fillmore_sold_out.png"
                 alt='"One Night At The Fillmore East"'
                 name='"One Night At The Fillmore East"'
-                date="Friday 2 April"
+                date="Friday 2 & Saturday 3 April"
                 time="8 - 10pm"
                 location="Artworks Theatre"
                 description={[`A retrospective salute to the great performers who played the infamous "Fillmore East" in New York in the late '60's and early '70's including Janis Joplin, Jimi Hendrix, the Allman brothers and many more.`
-                , <br/>, <br/>, <strong>Saturday 3rd April show SOLD OUT</strong>]}
+                , <br/>, <br/>, <strong>Both shows SOLD OUT</strong>]}
                 artists="Aaron Carpenter | Solomon Cole | Alastair Riddell | Meredith Bean | Dave Alley"
                 artistsSmall={["Aaron Carpenter", <br/>, "Solomon Cole", <br/>, "Alastair Riddell", <br/>, "Meredith Bean", <br/>, "Dave Alley"]}
             />
