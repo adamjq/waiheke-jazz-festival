@@ -60,14 +60,13 @@ const EventSection = () => {
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-sundowner"
-                image="sold_out_sundowner.png"
+                image="sundowner_more_tickets.png"
                 alt="Jazz Sundowner"
                 name="Jazz Sundowner"
                 date="Sunday 4 April"
                 time="4:30 - 8pm"
                 location="Wild Estate, Wild on Waiheke"
-                description={[`An afternoon of Jazz unlike any other! Some of Auckland's top Jazz artists perform for you at one of Waiheke's most relaxed and inviting venues at Wild Estate, Wild on Waiheke. On the scheduled Onetangi bus route. Don't miss this superb day trip.`
-                , <br/>, <br/>, <strong>Current allocation exhausted. Check back here before the event as more tickets may be released.</strong>]}
+                description={[`An afternoon of Jazz unlike any other! Some of Auckland's top Jazz artists perform for you at one of Waiheke's most relaxed and inviting venues at Wild Estate, Wild on Waiheke. On the scheduled Onetangi bus route. Don't miss this superb day trip.`]}
                 artists="The Eastern | Hopetoun Brown | Chelsea Prastitti | JT & The Saxman & more..."
                 artistsSmall={["The Eastern", <br/>, "Hopetoun Brown", <br/>, "Chelsea Prastitti", <br/>, "JT & The Saxman", <br/>, "& more..."]}
             />
