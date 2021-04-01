@@ -35,7 +35,7 @@ const EventSection = () => {
 
             <EventCard  
                 link="http://www.iticket.co.nz/events/2021/apr/wijf-friday-groove"
-                image="GoodFridayGrove.png"
+                image="gfg_sold_out.png"
                 alt="Good Friday Groove"
                 name="Good Friday Groove"
                 date="Friday 2 April"
@@ -60,7 +60,7 @@ const EventSection = () => {
             />
             <EventCard  
                 link="https://www.iticket.co.nz/events/2021/apr/wijf-sundowner"
-                image="sundowner_more_tickets.png"
+                image="sold_out_sundowner.png"
                 alt="Jazz Sundowner"
                 name="Jazz Sundowner"
                 date="Sunday 4 April"
