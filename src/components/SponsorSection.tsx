@@ -4,7 +4,7 @@ const BASE_PATH = "./img/sponsors/"
 
 {/* <div className="col span-1-of-1 sponsor-image"> */}
 
-const SponsorImage = (props) => {
+const SponsorImage = (props: any) => {
     return (
         <div className="sponsor-image">
             <img src={BASE_PATH + props.image} alt={props.alt}/>
