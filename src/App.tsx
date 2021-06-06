@@ -1,3 +1,5 @@
+import './App.scss';
+
 import { ArtistSection } from "./components/ArtistSection"
 import { EventSection } from "./components/EventSection"
 import { Footer } from "./components/Footer"
