@@ -1,5 +1,9 @@
 # Waiheke Jazz Festival SPA
 
+## Depdencies
+
+- `yarn` 
+
 ## Deployment
 
 Development deploy to GitHub pages:
