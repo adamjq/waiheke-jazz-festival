@@ -1,12 +1,10 @@
-import React from 'react';
-
-import EventCard from "./EventCard"
+import { EventCard } from "./EventCard"
 
 const longLunchText = `
 End your weekend on Waiheke at the now-legendary Jazz Long Lunch at Batch Winery - enjoy performances by New Zealand's favourite Jazz Entertainers the Nairobi trio and others while taking in the breathtaking views. Includes supmtuous 3 course lunch.
 `
 
-const EventSection = () => {
+export const EventSection = () => {
     return (
         <section id="events" className="section-events">
             <div className="row">
@@ -114,5 +112,3 @@ const EventSection = () => {
         </section>
     );
 }
-
-export default EventSection;

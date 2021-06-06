@@ -1,5 +1,3 @@
-import React from 'react';
-
 const BASE_PATH = "./img/sponsors/"
 
 {/* <div className="col span-1-of-1 sponsor-image"> */}
@@ -11,7 +9,7 @@ const SponsorImage = (props: any) => {
         </div>
     );
 }
-const SponsorSection = () => {
+export const SponsorSection = () => {
     return (
         <section id="sponsors" className="section-sponsors">
         {/* <div className="row">
@@ -29,5 +27,3 @@ const SponsorSection = () => {
         </section>
     );
 }
-
-export default SponsorSection;

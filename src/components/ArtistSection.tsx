@@ -1,5 +1,3 @@
-import React from 'react';
-
 const BASE_PATH = "./img/artists/"
 
 const ArtistItem = (props) => {
@@ -15,7 +13,7 @@ const ArtistItem = (props) => {
     );
 }
 
-const ArtistSection = () => {
+export const ArtistSection = () => {
     return (
         <section id="artists" className="section-artists">
             {/* <div className="row">
@@ -114,5 +112,3 @@ const ArtistSection = () => {
         </section>
     );
 }
-
-export default ArtistSection;

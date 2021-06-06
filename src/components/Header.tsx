@@ -1,9 +1,6 @@
+import { NavBar } from "./NavBar"
 
-import React from 'react';
-
-import NavBar from "./NavBar"
-
-const Header = () => {
+export const Header = () => {
     return (
         <section className="section-heading">
         <header>
@@ -26,5 +23,3 @@ const Header = () => {
         </section>
     );
 }
-
-export default Header;

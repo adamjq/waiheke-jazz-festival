@@ -1,8 +1,6 @@
-import React from 'react';
-
 const BASE_PATH = "./img/events/"
 
-const EventCard = (props) => {
+export const EventCard = (props) => {
     return (
         <div className="row">
             
@@ -49,5 +47,3 @@ const EventCard = (props) => {
         </div>
     );
 }
-
-export default EventCard;

@@ -12,6 +12,7 @@
     "forceConsistentCasingInFileNames": true,
     "typeRoots": [
       "./node_modules/@types",
+      ".src/types"
     ],
     "lib": [
       "dom",
