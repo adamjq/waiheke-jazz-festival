@@ -3,14 +3,17 @@ default: dev
 clean:
 	rm -rf build
 
+install:
+	yarn install
+
 dev:
-	npm start
+	yarn start
 
 build:
-	npm run build
+	yarn build
 
 gh-pages-deploy:
-	npm run deploy
+	yarn deploy
 
 prod-deploy: clean build
-	npm run aws-deploy
+	yarn aws-deploy
