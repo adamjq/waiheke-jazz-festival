@@ -1,10 +1,7 @@
-import { NavBar } from "./NavBar"
-
 export const Header = () => {
     return (
         <section className="section-heading">
         <header>
-            <NavBar/>
             <div className="hero-text-box">
                 <h2 className="heading-text-presents">
                     Waiheke International Jazz Festival Presents

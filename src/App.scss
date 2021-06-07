@@ -1,5 +1,7 @@
 $main-bg-colour: #FF0381;
 $main-text-colour: #FFFFFF;
+$secondary-colour: #F6D446;
+$secondary-colour-darker: #C3A113;
 
 @font-face {
 	font-family: LeagueSpartanCustom;
@@ -65,7 +67,7 @@ h3 {
 	&:after {
 		display: block;
 		height: 2px;
-		background-color: #F6D446;
+		background-color: $secondary-colour;
 		content: " ";
 		width: 10rem;
 		margin: 0 auto;
@@ -96,42 +98,48 @@ h3 {
 	text-transform: uppercase;
 	font-weight: 800;
 }
-.main-nav {
-	float: right;
-	list-style: none;
-	li {
-		display: inline-block;
-		margin-left: 4rem;
-		a {
-			&:link {
-				font-size: 1.8rem;
-				text-decoration: none;
-				text-transform: uppercase;
-				border-bottom: solid 0.2rem transparent;
-				padding: 0.8rem 0;
-				color: $main-text-colour;
-			}
-			&:visited {
-				font-size: 1.8rem;
-				text-decoration: none;
-				text-transform: uppercase;
-				border-bottom: solid 0.2rem transparent;
-				padding: 0.8rem 0;
-				color: $main-text-colour;
-			}
-			&:hover {
-				border-bottom: solid 0.2rem #F6D446;
-				-webkit-transition: border-bottom 0.2s;
-				transition: border-bottom 0.2s;
-			}
-			&:active {
-				border-bottom: solid 0.2rem #F6D446;
-				-webkit-transition: border-bottom 0.2s;
-				transition: border-bottom 0.2s;
+
+nav {
+	padding-top: 2rem;
+	ul {
+		float: right;
+		list-style: none;
+		li {
+			display: inline-block;
+			margin-left: 4rem;
+			a {
+				&:link {
+					font-size: 1.8rem;
+					text-decoration: none;
+					text-transform: uppercase;
+					border-bottom: solid 0.2rem transparent;
+					padding: 0.8rem 0;
+					color: $main-text-colour;
+				}
+				&:visited {
+					font-size: 1.8rem;
+					text-decoration: none;
+					text-transform: uppercase;
+					border-bottom: solid 0.2rem transparent;
+					padding: 0.8rem 0;
+					color: $main-text-colour;
+				}
+				&:hover {
+					border-bottom: solid 0.2rem  $secondary-colour;
+					-webkit-transition: border-bottom 0.2s;
+					transition: border-bottom 0.2s;
+				}
+				&:active {
+					border-bottom: solid 0.2rem  $secondary-colour;
+					-webkit-transition: border-bottom 0.2s;
+					transition: border-bottom 0.2s;
+				}
 			}
 		}
 	}
 }
+
+	
 p {
 	font-size: 1.4rem;
 	line-height: 145%;
@@ -160,11 +168,11 @@ a {
 		transition: border-bottom 0.2s, color 0.2s;
 	}
 	&:hover {
-		color: #C3A113;
+		color: $secondary-colour-darker;
 		border-bottom: 0.1rem solid transparent;
 	}
 	&:active {
-		color: #C3A113;
+		color: $secondary-colour-darker;
 		border-bottom: 0.1rem solid transparent;
 	}
 }
@@ -172,18 +180,18 @@ button {
 	width: 10rem;
 	padding: 0.7rem;
 	border-radius: 100rem;
-	border: 1px solid #C3A113;
-	background-color: #F6D446;
+	border: 1px solid $secondary-colour-darker;
+	background-color:  $secondary-colour;
 	color: #000000;
 	text-transform: uppercase;
 	&:focus {
 		outline: 0;
 	}
 	&:hover {
-		background-color: #C3A113;
+		background-color: $secondary-colour-darker;
 	}
 	&:active {
-		background-color: #C3A113;
+		background-color: $secondary-colour-darker;
 	}
 }
 .button-links {
@@ -264,7 +272,7 @@ button {
 		p {
 			font-size: 3rem;
 			font-weight: 700;
-			color: #F6D446;
+			color:  $secondary-colour;
 		}
 	}
 	.event-name {
@@ -467,8 +475,10 @@ button {
 	.announcement-logo-img {
 		width: 80%;
 	}
-	.main-nav {
-		display: none;
+	nav {
+		ul {
+			display: none;
+		}
 	}
 	h3 {
 		font-size: 2.2rem;
