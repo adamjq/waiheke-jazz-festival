@@ -7,25 +7,16 @@ import { EventSection } from "./components/EventSection"
 import { Header } from "./components/Header"
 import { NavBar } from "./components/NavBar"
 import { SponsorSection } from "./components/SponsorSection"
-import { Venues } from "./components/Venues"
+import { Venues } from "./components/venues/Venues"
+import { LandingPage } from './components/LandingPage';
 
 export const App = () => {
     return (
         <div className="App">
             <BrowserRouter>
-                <NavBar/>
-    
                 <Switch>
-                    <Route exact path="/">
-                        <Header />
-                        <EventSection />
-                        <ArtistSection />
-                        <SponsorSection />
-                    </Route>
-                    
-                    {/* <Route exact path="/venues">
-                        <Venues />
-                    </Route> */}
+                    <Route path="/venues" component={Venues}/>
+                    <Route path="/" component={LandingPage}/>
                 </Switch>
             </BrowserRouter>
 

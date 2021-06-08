@@ -1,5 +1,8 @@
-declare module 'react';
-declare module 'react-dom';
-declare module 'react-router-dom';
-declare module 'react/jsx-runtime';
-declare module 'node';
+declare module 'react'
+declare module 'react-dom'
+declare module 'react-router-dom'
+declare module 'react/jsx-runtime'
+declare module 'node'
+declare module 'google-map-react'
+declare module '@iconify/react'
+declare module '@iconify/icons-mdi/map-marker'
