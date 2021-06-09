@@ -1,0 +1,53 @@
+$black-color: #000000;
+$main-pink-colour: #FF0381;
+$main-text-colour: #FFFFFF;
+$secondary-colour: #F6D446;
+$secondary-colour-darker: #C3A113;
+$black-overlay: rgba(0, 0, 0, 1);
+$max-row-width: 1200px;
+
+.section-header {
+    width: 100%;
+    background-color: $black-overlay;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 4rem;
+    }
+
+    .festival-heading {
+        padding-left: 20px;
+
+        .festival-title {
+            font-size: 2.8rem;
+            color: $main-text-colour;
+            text-transform: uppercase;
+            .title-jazz {
+                color: $main-pink-colour;
+            }
+        }
+        .festival-dates {
+            color: $secondary-colour;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 800px) {
+    .section-header {
+        padding: 10px 20px;
+        .festival-heading {
+            padding-left: 10px;
+            .festival-title {
+                font-size: 1.6rem;
+            }
+            .festival-dates {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+

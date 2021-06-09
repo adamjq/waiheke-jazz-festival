@@ -17,16 +17,6 @@ const DEFAULT_MAP_CENTER = {
 // from .env file
 const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GMAPS_API_KEY
 
-interface MapProps {
-    locations: Location[]
-}
-
-interface Location {
-    lat: number
-    lng: number
-    address: string
-}
-
 const LocationPin = ( { text } ) => (
     <div className="pin">
       <Icon icon={locationIcon} className="pin-icon" />

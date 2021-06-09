@@ -2,19 +2,18 @@ import './App.scss';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { ArtistSection } from "./components/ArtistSection"
-import { EventSection } from "./components/EventSection"
-import { Header } from "./components/Header"
-import { NavBar } from "./components/NavBar"
-import { SponsorSection } from "./components/SponsorSection"
+import { Header } from "./components/header/Header"
 import { Venues } from "./components/venues/Venues"
-import { LandingPage } from './components/LandingPage';
+import { LandingPage } from './components/landingpage/LandingPage';
 
 export const App = () => {
     return (
         <div className="App">
             <BrowserRouter>
+                <Header/>
+
                 <Switch>
+                    <Route exact path="/" component={LandingPage}/>
                     <Route path="/venues" component={Venues}/>
                     <Route path="/" component={LandingPage}/>
                 </Switch>

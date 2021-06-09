@@ -1,0 +1,38 @@
+$black-color: #000000;
+$main-pink-colour: #FF0381;
+$main-text-colour: #FFFFFF;
+$secondary-colour: #F6D446;
+$secondary-colour-darker: #C3A113;
+$black-overlay: rgba(0, 0, 0, 1);
+$max-row-width: 2500px;
+
+.section-landing-page {
+	margin: 0 auto;
+	max-width: $max-row-width;
+
+	.banner-image-container {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.landing-page-info {
+	padding: 80px;
+
+	.thankyou-text {
+		padding-bottom: 40px;
+	}
+}
+
+/* MOBILE */
+@media only screen and (max-width: 800px) {
+    .landing-page-info {
+		padding: 40px;
+
+		.thankyou-text {
+			padding-bottom: 20px;
+		}
+	}
+}
+

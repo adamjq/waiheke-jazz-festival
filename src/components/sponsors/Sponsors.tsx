@@ -11,7 +11,7 @@ const SPONSERS = [
     }
 ]
 
-export const SponsorSection = () => {
+export const Sponsors = () => {
     return (
         <section id="sponsors" className="section-sponsors">
         <div className="row">
@@ -24,3 +24,5 @@ export const SponsorSection = () => {
         </section>
     )
 }
+
+export default Sponsors
