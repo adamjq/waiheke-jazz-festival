@@ -14,7 +14,7 @@ $secondary-colour-darker: #C3A113;
     input {
         padding: 1rem 1.5rem;
         margin: 5px 5px 5px 0px;
-        width: 50%;
+        width: clamp(200px, 70%, 600px);
     }
 
     button {
@@ -26,9 +26,23 @@ $secondary-colour-darker: #C3A113;
     button:hover {
         background-color: $secondary-colour-darker;
     }
+
+    .email-subscribe-err-msg {
+        color: red;
+    }
+
+    .email-subscribe-success-msg {
+        color: green;
+    }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 800px) {
+
+    .email-signup-form {
+        input {
+            width: 100%;
+        }
+    }
 }
 

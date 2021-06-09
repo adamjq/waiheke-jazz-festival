@@ -5,32 +5,61 @@ import "./emailsignup.scss"
 // from .env file
 const MAILCHIMP_SUBSCRIBE_URL = process.env.REACT_APP_MAILCHIMP_URL
 
+const onEmailSubscribeError = (errMsg: string): string => {
+    if (errMsg.includes("is already subscribed")) {
+        return "The email is already subscribed to the mailing list."
+    }
+    return "An error occurred subscribing the email."
+}
+
+const onEmailSubscribeSuccess = (): string => {
+    return "Email successfully subscribed."
+}
+
+// a basic form
 const CustomForm = ({ status, message, onValidated }) => {
-    let email, name;
-    const submit = () =>
+    let email;
+    const submit = () => {
         email &&
-        name &&
         email.value.indexOf("@") > -1 &&
         onValidated({
             EMAIL: email.value,
-            NAME: name.value
-    })
+        });
+        console.log(`Suscribing email: ${email.value}`)
+    }
   
     return (
-        <div className="email-signup-form">
-            <p>
-                Sign up to the Waiheke Jazz Festival mailing list to get the latest updates by email
-            </p>
+      <div className="email-signup-form">
 
-            <input
-                ref={node => (email = node)}
-                type="email"
-                placeholder="Your email"
-            />
-            <button className="subscribe-button" onClick={submit}>Subscribe</button>
+        <p>
+            Sign up to the Waiheke Jazz Festival mailing list to get the latest updates by email
+        </p>
+
+        { console.log(`MailChimp subscription status: ${status}`) }
+        
+        {status === "error" && (
+          <div
+          className="email-subscribe-err-msg"
+            dangerouslySetInnerHTML={{ __html: onEmailSubscribeError(message)}}
+          />
+        )}
+        {status === "success" && (
+          <div
+            className="email-subscribe-success-msg"
+            dangerouslySetInnerHTML={{ __html: onEmailSubscribeSuccess() }}
+          />
+        )}
+        <input
+          ref={node => (email = node)}
+          type="email"
+          placeholder="waiheke@jazz.co.nz"
+        />
+        <button className="subscribe-button" onClick={submit}>
+          Subscribe
+        </button>
       </div>
-    )
-}
+    );
+  };
 
 export const EmailSignup = () => {
     return (
@@ -48,5 +77,6 @@ export const EmailSignup = () => {
       </div>
     )
 }
+
 
 export default EmailSignup

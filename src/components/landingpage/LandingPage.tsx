@@ -1,4 +1,5 @@
-import bannerImage from '../../images/gfg_banner.jpg'
+//import bannerImage from '../../images/gfg_banner.jpg'
+import bannerImage from '../../images/gfg_banner_colour.jpg'
 
 import { EmailSignup } from '../emailsignup/EmailSignup'
 
