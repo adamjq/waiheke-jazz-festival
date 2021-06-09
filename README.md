@@ -1,8 +1,14 @@
-# Waiheke Jazz Festival SPA
+# Waiheke Jazz Festival website
 
-## Depdencies
+This repo contains the code for the [Waiheke Jazz Festival public website](https://www.waihekejazzfestival.co.nz/).
+The website it written using Typescript and React.
 
-- `yarn` 
+## Dependencies
+
+- `yarn`
+- `typescript`
+- `Google Maps API Key`
+- `MailChimp`
 
 ## Deployment
 
