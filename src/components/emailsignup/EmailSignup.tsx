@@ -52,7 +52,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         <input
           ref={node => (email = node)}
           type="email"
-          placeholder="waiheke@jazz.co.nz"
+          placeholder="info@waihekejazzfestival.co.nz"
         />
         <button className="subscribe-button" onClick={submit}>
           Subscribe
