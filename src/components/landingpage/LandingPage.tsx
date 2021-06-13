@@ -1,7 +1,7 @@
 //import bannerImage from '../../images/gfg_banner.jpg'
 import bannerImage from '../../images/gfg_banner_colour.jpg'
 
-import { EmailSignup } from '../emailsignup/EmailSignup'
+import { MailingList } from '../mailinglist/MailingList'
 
 import './landingpage.scss'
 
@@ -15,7 +15,7 @@ export const LandingPage = () => {
                     The festival will return Easter 2022. Thanks to everyone who attended in 2021. 
                 </p>
 
-                <EmailSignup />
+                <MailingList />
 
             </div>
 

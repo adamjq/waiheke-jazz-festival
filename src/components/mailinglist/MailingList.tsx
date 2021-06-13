@@ -1,6 +1,6 @@
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
-import "./emailsignup.scss"
+import "./mailinglist.scss"
 
 // from .env file
 const MAILCHIMP_SUBSCRIBE_URL = process.env.REACT_APP_MAILCHIMP_URL
@@ -61,9 +61,9 @@ const CustomForm = ({ status, message, onValidated }) => {
     );
   };
 
-export const EmailSignup = () => {
+export const MailingList = () => {
     return (
-        <div className="section-email-signup">
+        <div className="section-mailing-list">
             <MailchimpSubscribe
                 url={MAILCHIMP_SUBSCRIBE_URL}
                 render={({ subscribe, status, message }) => (
@@ -79,4 +79,4 @@ export const EmailSignup = () => {
 }
 
 
-export default EmailSignup
+export default MailingList

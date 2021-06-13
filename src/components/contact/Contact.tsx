@@ -1,4 +1,4 @@
-import { EmailSignup } from '../emailsignup/EmailSignup'
+import { MailingList } from '../mailinglist/MailingList'
 
 import './contact.scss'
 
@@ -9,7 +9,7 @@ export const Contact = () => {
 
             <p>For artist and marketing enquires, please contact info@waihekejazzfestival.co.nz</p>
 
-            <EmailSignup />
+            <MailingList />
         </div>
     )
 }
