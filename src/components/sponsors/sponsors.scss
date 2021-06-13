@@ -1,0 +1,33 @@
+$black-color: #000000;
+$main-pink-colour: #FF0381;
+$main-text-colour: #FFFFFF;
+$secondary-colour: #F6D446;
+$secondary-colour-darker: #C3A113;
+$black-overlay: rgba(0, 0, 0, .7);
+$max-row-width: 1200px;
+
+.section-sponsors {
+	padding: 40px 80px;
+	max-width: $max-row-width;
+	margin: 0 auto;
+    .sponsor-logos {
+        display: flex;
+        justify-content: space-around;
+
+        img {
+            width: 30%;
+        }
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 800px) {
+    .section-sponsors {
+        padding: 40px 0;
+        .sponsor-logos {
+            img {
+                width: 40%;
+            }
+        }
+    }
+}

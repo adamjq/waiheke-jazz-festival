@@ -40,6 +40,7 @@ interface VenueCardProps {
     image: any
     lat?: number
     lng?: number
+    index?: number
 }
 
 export const Venues = () => {
@@ -47,12 +48,13 @@ export const Venues = () => {
         <div className="section-venues">
             <h1>Venues</h1>
 
-            {VENUES.map((v) => (
+            {VENUES.map((v, i) => (
                 <VenueCard 
                     title={v.title}
                     address={v.address}
                     websiteURL={v.websiteURL}
                     image={v.image}
+                    index={i}
                 />
             ))}
 
@@ -65,6 +67,7 @@ export const Venues = () => {
 }
 
 const VenueCard = (props: VenueCardProps) => {
+
     return (
         <div className="venue-card">
             <img className="venue-card-img" src={props.image} alt={props.title}/>
@@ -77,5 +80,39 @@ const VenueCard = (props: VenueCardProps) => {
         </div>
     )
 }
+
+// const VenueCard = (props: VenueCardProps) => {
+
+//     // use index to determine whether to have img card on left or right side
+//     if (props.index != undefined && props.index % 2 === 0) {
+
+//         // image on left of div
+//         return (
+//             <div className="venue-card">
+//                 <img className="venue-card-img" src={props.image} alt={props.title}/>
+
+//                 <div className="venue-card-info">
+//                     <h3 className="venue-card-title">{props.title}</h3>
+//                     <p className="venue-card-address">{props.address}</p>
+//                     <a href={props.websiteURL}>{props.websiteURL}</a>
+//                 </div>
+//             </div>
+//         )
+//     } else {
+
+//         // image on right of div
+//         return (
+//             <div className="venue-card">
+//                 <div className="venue-card-info">
+//                     <h3 className="venue-card-title">{props.title}</h3>
+//                     <p className="venue-card-address">{props.address}</p>
+//                     <a href={props.websiteURL}>{props.websiteURL}</a>
+//                 </div>
+
+//                 <img className="venue-card-img" src={props.image} alt={props.title}/>
+//             </div>
+//         )
+//     }
+// }
 
 export default Venues

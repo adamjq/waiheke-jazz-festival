@@ -7,6 +7,7 @@ import { Contact } from "./components/contact/Contact"
 import { Header } from "./components/header/Header"
 import { Venues } from "./components/venues/Venues"
 import { LandingPage } from './components/landingpage/LandingPage';
+import { Sponsors } from './components/sponsors/Sponsors';
 
 export const App = () => {
     return (
@@ -21,8 +22,9 @@ export const App = () => {
                     <Route path="/venues" component={Venues}/>
                     <Route path="/" component={LandingPage}/>
                 </Switch>
-            </BrowserRouter>
 
+                {/* <Sponsors/> */}
+            </BrowserRouter>
         </div>
     );
 }

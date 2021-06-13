@@ -1,27 +1,28 @@
-const BASE_PATH = "./img/sponsors/"
+import fullersImage from '../../images/sponsors/Fullers360Logo.png'
+import aucklandCouncilImage from '../../images/sponsors/AucklandCouncilLogo.png'
+
+import './sponsors.scss'
 
 const SPONSERS = [
     {
-        image: "Fullers360Logo.png",
+        image: fullersImage,
         alt: "Fullers 360 Logo",
     },
     {
-        image: "AucklandCouncilLogo.png",
+        image: aucklandCouncilImage,
         alt: "Auckland Council Logo",
     }
 ]
 
 export const Sponsors = () => {
     return (
-        <section id="sponsors" className="section-sponsors">
-        <div className="row">
-
-            {SPONSERS.map((s, index) => (
-                <img key={index} src={BASE_PATH + s.image} alt={s.alt}/>
-            ))}
-
+        <div className="section-sponsors">
+            <div className="sponsor-logos">
+                {SPONSERS.map((s, index) => (
+                    <img key={index} src={s.image} alt={s.alt}/>
+                ))}
+            </div>
         </div>
-        </section>
     )
 }
 
