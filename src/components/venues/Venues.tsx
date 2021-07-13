@@ -70,12 +70,13 @@ const VenueCard = (props: VenueCardProps) => {
 
     return (
         <div className="venue-card">
-            <img className="venue-card-img" src={props.image} alt={props.title}/>
+            <a className="venue-card-img" href={props.websiteURL} target="_blank" rel="noreferrer">
+                <img src={props.image} alt={props.title}/>
+            </a>
 
             <div className="venue-card-info">
                 <h3 className="venue-card-title">{props.title}</h3>
                 <p className="venue-card-address">{props.address}</p>
-                <a href={props.websiteURL}>{props.websiteURL}</a>
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 $black-color: #000000;
-$main-pink-colour: #FF0381;
+$main-colour: #ff6300;
 $main-text-colour: #FFFFFF;
 $secondary-colour: #F6D446;
 $secondary-colour-darker: #C3A113;
@@ -29,15 +29,8 @@ $max-row-width: 1200px;
 		.artist-card-info {
 			width: 40%;
 			padding-left: 40px;
-			a, a:link {
-				text-decoration: none;
-			}
-			a:visited, a:hover, a:active {
-				text-decoration: none;
-			}
-
 			.artist-card-name {
-				color: $main-pink-colour;
+				color: $main-colour;
 				font-size: 3rem;
 				padding-bottom: 20px;
 			}

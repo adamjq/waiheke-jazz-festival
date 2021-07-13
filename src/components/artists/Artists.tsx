@@ -1,8 +1,14 @@
+import annieCrummerImage from '../../images/artists/annie-crummer.jpeg'
 import nairobiTrioImage from '../../images/artists/nairobi-trio.jpg'
 
 import './artists.scss'
 
 const ARTISTS: ArtistCardProps[] = [
+    {
+        name: "Annie Crummer",
+        websiteURL: "https://www.facebook.com/profile.php?id=100057745281988",
+        image: annieCrummerImage,
+    },
     {
         name: "Nairobi Trio",
         websiteURL: "http://www.nairobitrio.co.nz",
@@ -37,11 +43,12 @@ export const Artists = () => {
 const ArtistCard = (props: ArtistCardProps) => {
     return (
         <div className="artist-card">
-            <img className="artist-card-img" src={props.image} alt={props.name}/>
+            <a className="artist-card-img" href={props.websiteURL} target="_blank" rel="noreferrer">
+                <img src={props.image} alt={props.name}/>
+            </a>
 
             <div className="artist-card-info">
                 <h3 className="artist-card-name">{props.name}</h3>
-                <a href={props.websiteURL}>{props.websiteURL}</a>
             </div>
         </div>
     )
